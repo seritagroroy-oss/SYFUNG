@@ -45,7 +45,7 @@ function init() {
 // Theme Management
 // ==========================================================================
 function initTheme() {
-    const savedTheme = localStorage.getItem('nexus_theme') || 'dark';
+    const savedTheme = localStorage.getItem('nexus_theme') || 'light';
     htmlElement.setAttribute('data-theme', savedTheme);
     updateThemeToggleUI(savedTheme);
 }
