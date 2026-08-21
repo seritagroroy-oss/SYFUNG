@@ -1,0 +1,17 @@
+{
+  "name": "SyFung Annuaire",
+  "short_name": "SyFung",
+  "description": "L'annuaire ultime des outils web (IA, Dev, Design, Formations, Cybersécurité, etc.)",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

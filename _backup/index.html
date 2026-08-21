@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyFung - Annuaire</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons (for modern icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="ph-fill ph-bookmarks"></i>
+                <h1>SyFung</h1>
+            </div>
+
+            <nav class="categories">
+                <h2 class="section-title">Catégories</h2>
+                <ul id="category-list">
+                    <li class="category-item active" data-category="all">
+                        <i class="ph ph-squares-four"></i> Tous
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="IA">
+                            <i class="ph ph-robot"></i> IA
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="IA - RECHERCHE">
+                                <i class="ph ph-magnifying-glass"></i> Recherche
+                            </li>
+                            <li class="category-item sub-item" data-category="IA - IMAGES">
+                                <i class="ph ph-palette"></i> Images & Design
+                            </li>
+                            <li class="category-item sub-item" data-category="IA - AUDIO VIDEO">
+                                <i class="ph ph-speaker-hifi"></i> Audio & Vidéo
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="DEV">
+                            <i class="ph ph-code"></i> Pour les Dev
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="DEV - ASSISTANTS">
+                                <i class="ph ph-magic-wand"></i> Assistants de Code
+                            </li>
+                            <li class="category-item sub-item" data-category="DEV - GENERATEURS">
+                                <i class="ph ph-rocket-launch"></i> Générateurs (Apps)
+                            </li>
+                            <li class="category-item sub-item" data-category="DEV - OUTILS">
+                                <i class="ph ph-terminal-window"></i> Outils & Terminal
+                            </li>
+                            <li class="category-item sub-item" data-category="DEV - RESSOURCES">
+                                <i class="ph ph-books"></i> Ressources
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="API">
+                            <i class="ph ph-plugs"></i> API
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="API - PUBLIQUES">
+                                <i class="ph ph-globe"></i> API Publiques
+                            </li>
+                            <li class="category-item sub-item" data-category="API - OUTILS">
+                                <i class="ph ph-wrench"></i> Outils & Tests
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="WINDOWS">
+                            <i class="ph ph-windows-logo"></i> Windows
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="WINDOWS - LOGICIELS">
+                                <i class="ph ph-app-window"></i> Logiciels
+                            </li>
+                            <li class="category-item sub-item" data-category="WINDOWS - UTILITAIRES">
+                                <i class="ph ph-gear"></i> Utilitaires
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-item" data-category="OFFICES">
+                        <i class="ph ph-file-text"></i> Offices
+                    </li>
+                    <li class="category-item" data-category="LINUX">
+                        <i class="ph ph-linux-logo"></i> Linux
+                    </li>
+                    <li class="category-item" data-category="TUTOS">
+                        <i class="ph ph-graduation-cap"></i> Tutos
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="FORMATION">
+                            <i class="ph ph-chalkboard-teacher"></i> Formations
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="FORMATION - DEV">
+                                <i class="ph ph-code"></i> Développement
+                            </li>
+                            <li class="category-item sub-item" data-category="FORMATION - BUSINESS">
+                                <i class="ph ph-chart-line-up"></i> Business & Marketing
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="EBOOK">
+                            <i class="ph ph-book-open"></i> Ebook
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="EBOOK - TECH">
+                                <i class="ph ph-cpu"></i> Tech & IT
+                            </li>
+                            <li class="category-item sub-item" data-category="EBOOK - LITTÉRATURE">
+                                <i class="ph ph-books"></i> Littérature
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="FILMS">
+                            <i class="ph ph-film-strip"></i> Films
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="FILMS - STREAMING">
+                                <i class="ph ph-play-circle"></i> Streaming
+                            </li>
+                            <li class="category-item sub-item" data-category="FILMS - ANIMATION">
+                                <i class="ph ph-smiley"></i> Animation
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="JEUX">
+                            <i class="ph ph-game-controller"></i> Jeux
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="JEUX - RETRO">
+                                <i class="ph ph-ghost"></i> Rétro & Émulation
+                            </li>
+                            <li class="category-item sub-item" data-category="JEUX - PC">
+                                <i class="ph ph-desktop"></i> PC & Indépendants
+                            </li>
+                            <li class="category-item sub-item" data-category="JEUX - NAVIGATEUR">
+                                <i class="ph ph-browser"></i> Navigateur
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="MONTAGE">
+                            <i class="ph ph-video-camera"></i> Montage Vidéo
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="MONTAGE - PRO & PREMIUM">
+                                <i class="ph ph-star"></i> Pro & Premium
+                            </li>
+                            <li class="category-item sub-item" data-category="MONTAGE - OPEN SOURCE">
+                                <i class="ph ph-code"></i> Open Source
+                            </li>
+                            <li class="category-item sub-item" data-category="MONTAGE - IA & LIGNE">
+                                <i class="ph ph-browser"></i> IA & En Ligne
+                            </li>
+                            <li class="category-item sub-item" data-category="MONTAGE - MOBILE">
+                                <i class="ph ph-device-mobile"></i> Mobile (iOS/Android)
+                            </li>
+                            <li class="category-item sub-item" data-category="MONTAGE - DIVERS">
+                                <i class="ph ph-dots-three-circle"></i> Outils & Assets
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="CYBERSÉCURITÉ">
+                            <i class="ph ph-shield-check"></i> Cybersécurité
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="CYBERSÉCURITÉ - APPRENTISSAGE">
+                                <i class="ph ph-student"></i> Apprentissage
+                            </li>
+                            <li class="category-item sub-item" data-category="CYBERSÉCURITÉ - OUTILS">
+                                <i class="ph ph-wrench"></i> Outils
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="category-group">
+                        <div class="category-item" data-category="DIVERS">
+                            <i class="ph ph-folder-notch"></i> Divers
+                            <i class="ph ph-caret-down submenu-toggle" style="margin-left: auto; font-size: 0.9em;"></i>
+                        </div>
+                        <ul class="submenu">
+                            <li class="category-item sub-item" data-category="DIVERS - OUTILS">
+                                <i class="ph ph-toolbox"></i> Utilitaires
+                            </li>
+                            <li class="category-item sub-item" data-category="DIVERS - AUTRE">
+                                <i class="ph ph-dots-three"></i> Autres
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+                    <i class="ph ph-sun"></i>
+                    <span>Thème Clair</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Sticky Header Wrapper -->
+            <div class="sticky-header-wrapper">
+                <!-- Hero Header -->
+                <div class="hero-header">
+                    <div class="hero-text-wrap">
+                        <div class="hero-author-img">
+                            <img src="author.jpg" alt="SERI TAGRO ROY">
+                        </div>
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                <i class="ph-fill ph-bookmarks"></i> SyFung
+                            </h1>
+                            <p class="hero-subtitle">Votre annuaire des sites· Créé par <span class="hero-author">SERI TAGRO
+                                    ROY</span></p>
+                        </div>
+                    </div>
+                    
+                    <div class="search-container">
+                        <i class="ph ph-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Rechercher un lien...">
+                    </div>
+
+                    <div class="hero-actions">
+                        <button id="about-btn" class="btn-about">
+                            <i class="ph-fill ph-info"></i>
+                            <span>À propos</span>
+                        </button>
+                        <button id="support-btn" class="btn-support">
+                            <i class="ph-fill ph-heart"></i>
+                            <span>Soutenir le projet</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <section class="links-section">
+                <div class="section-header">
+                    <h2 id="current-category-title">Tous les sites</h2>
+                    <span id="links-count" class="badge">0</span>
+                </div>
+
+                <div id="links-grid" class="links-grid">
+                    <!-- Cards will be injected here by JS -->
+                </div>
+
+
+            </section>
+
+            <footer class="site-footer">
+                <p>
+                    <i class="ph ph-bookmark-simple"></i>
+                    <strong>SyFung</strong> est l'œuvre de <span class="author">SERI TAGRO ROY</span>
+                </p>
+                <p class="footer-sub">© 2025 · Tous droits réservés</p>
+            </footer>
+        </main>
+    </div>
+
+
+
+    <!-- About Modal -->
+    <div id="about-modal" class="modal-overlay hidden">
+        <div class="modal about-modal">
+            <button id="close-about" class="modal-close-btn"><i class="ph ph-x"></i></button>
+
+            <div class="about-content">
+                <div class="about-media">
+                    <div class="about-image">
+                        <img src="author.jpg" alt="SERI TAGRO ROY">
+                    </div>
+                    <div class="about-poster-mini">
+                        <img src="poster.jpg" alt="Apprendre l'informatique">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>À propos de SyFung & de son créateur</h2>
+                    <p>
+                        <strong>SyFung</strong> est né d'une volonté simple : centraliser les meilleurs outils du web
+                        (IA, développement, design, formations) pour permettre à tous d'être plus productifs. Plus
+                        besoin de chercher partout, tout est ici, trié et accessible en un clic.
+                    </p>
+                    <p>
+                        Je suis <strong>SERI TAGRO ROY</strong>, le concepteur et développeur derrière ce projet.
+                        Passionné par le code, l'innovation et le partage de connaissances, j'ai voulu créer un espace
+                        utile, élégant et totalement gratuit pour la communauté.
+                    </p>
+                    <p>
+                        Mon objectif est de maintenir cet annuaire à jour avec les meilleures pépites du web. Si vous
+                        aimez le projet, n'hésitez pas à le soutenir ou à le partager !
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Support Modal -->
+    <div id="support-modal" class="modal-overlay hidden">
+        <div class="modal support-modal">
+            <button id="close-support" class="modal-close-btn"><i class="ph ph-x"></i></button>
+
+            <div class="support-header">
+                <div class="support-icon-wrap">
+                    <i class="ph-fill ph-heart"></i>
+                </div>
+                <h2>Soutenir SyFung 💛</h2>
+                <p class="support-intro">
+                    SyFung est un projet 100% gratuit, conçu avec passion pour vous offrir un accès rapide aux meilleurs
+                    outils du web.
+                    Si ce site vous fait gagner du temps chaque jour, un petit geste de votre part suffit à nous
+                    encourager à continuer et à l'améliorer encore plus !
+                    <br><br>
+                    <strong>Un simple dépôt, même modeste, fait toute la différence. 🙏</strong>
+                </p>
+            </div>
+
+            <div class="payment-grid">
+                <div class="payment-card mtn">
+                    <div class="payment-logo">
+                        <i class="ph-fill ph-device-mobile"></i>
+                    </div>
+                    <div class="payment-info">
+                        <span class="payment-name">MTN Money</span>
+                        <span class="payment-number">+225 05 54 37 75 07</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyNumber('+22505543775 07', this)"><i
+                            class="ph ph-copy"></i></button>
+                </div>
+
+                <div class="payment-card moov">
+                    <div class="payment-logo">
+                        <i class="ph-fill ph-device-mobile"></i>
+                    </div>
+                    <div class="payment-info">
+                        <span class="payment-name">Moov Money</span>
+                        <span class="payment-number">+225 01 40 94 59 41</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyNumber('+22501409459 41', this)"><i
+                            class="ph ph-copy"></i></button>
+                </div>
+
+                <div class="payment-card orange">
+                    <div class="payment-logo">
+                        <i class="ph-fill ph-device-mobile"></i>
+                    </div>
+                    <div class="payment-info">
+                        <span class="payment-name">Orange Money</span>
+                        <span class="payment-number">+225 07 67 17 45 41</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyNumber('+22507671745 41', this)"><i
+                            class="ph ph-copy"></i></button>
+                </div>
+
+                <div class="payment-card wave">
+                    <div class="payment-logo">
+                        <i class="ph-fill ph-waves"></i>
+                    </div>
+                    <div class="payment-info">
+                        <span class="payment-name">Wave</span>
+                        <span class="payment-number">+225 05 54 37 75 07</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyNumber('+22505543775 07', this)"><i
+                            class="ph ph-copy"></i></button>
+                </div>
+            </div>
+
+            <p class="support-merci">Merci infiniment pour votre générosité ! ❤️<br><span>— SERI TAGRO ROY</span></p>
+        </div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-content">
+            <h3>Respect de votre vie privée 🍪</h3>
+            <p>
+                Bienvenue sur SyFung ! Nous utilisons de petits fichiers (cookies) pour assurer le bon fonctionnement de l'annuaire, mémoriser vos préférences (comme le thème sombre ou la fermeture des fenêtres) et analyser de manière anonyme notre trafic. 
+            </p>
+            <p class="cookie-details">
+                L'objectif est simple : faire évoluer la plateforme pour toujours vous proposer les meilleurs outils du web dans un environnement agréable. Vous avez le contrôle total sur ces choix.
+            </p>
+            <div class="cookie-actions">
+                <button id="cookie-settings" class="btn-cookie-outline">Personnaliser</button>
+                <button id="cookie-reject" class="btn-cookie-outline">Refuser l'essentiel</button>
+                <button id="cookie-accept" class="btn-cookie-primary">Tout Accepter</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
