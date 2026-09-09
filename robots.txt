@@ -1,0 +1,8 @@
+# SyFung - robots.txt
+# Autoriser tous les robots à indexer le site
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://syfung.vercel.app/sitemap.xml

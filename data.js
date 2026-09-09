@@ -325,7 +325,7 @@ const SYFUNG_LINKS = [
     { id: "kdenlive", title: "Kdenlive", url: "https://kdenlive.org/", category: "MONTAGE - OPEN SOURCE", description: "Monteur vidéo open-source très riche en fonctionnalités." },
     { id: "shotcut", title: "Shotcut", url: "https://shotcut.org/", category: "MONTAGE - OPEN SOURCE", description: "Logiciel de montage vidéo libre, gratuit et multiplateforme." },
     { id: "openshot", title: "OpenShot", url: "https://www.openshot.org/", category: "MONTAGE - OPEN SOURCE", description: "Très simple d'utilisation pour débuter avec le montage vidéo libre." },
-    { id: "capcut", title: "CapCut", url: "https://www.capcut.com/", category: "MONTAGE - IA & LIGNE", description: "Éditeur vidéo incontournable, intuitif avec d'excellents modèles." },
+    { id: "capcut", title: "CapCut", url: "https://www.capcut.com/", category: "MONTAGE - PRO & PREMIUM", description: "Éditeur vidéo incontournable, intuitif avec d'excellents modèles." },
     { id: "clipchamp", title: "Clipchamp", url: "https://clipchamp.com/", category: "MONTAGE - IA & LIGNE", description: "Très simple pour des petits montages en ligne ou sur Windows." },
     { id: "veedio", title: "Veed.io", url: "https://www.veed.io/", category: "MONTAGE - IA & LIGNE", description: "Superbe éditeur en ligne, parfait pour les sous-titres automatiques." },
     { id: "descript", title: "Descript", url: "https://www.descript.com/", category: "MONTAGE - IA & LIGNE", description: "Éditez vos vidéos en modifiant simplement le texte de la transcription." },
