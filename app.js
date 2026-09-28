@@ -166,10 +166,13 @@ function renderLinks() {
     // Update UI
     linksCount.textContent = filtered.length;
 
+    // Use DocumentFragment for better performance
+    const fragment = document.createDocumentFragment();
+
     filtered.forEach((link, index) => {
         const card = document.createElement('article');
         card.className = 'link-card';
-        card.style.animationDelay = `${index * 0.03}s`;
+        card.style.animationDelay = `${index * 0.01}s`; // Reduced delay for faster perception
 
         const iconUrl = getFaviconUrl(link);
         const avatarSrc = generateAvatar(link.title);
@@ -181,7 +184,7 @@ function renderLinks() {
             <div class="card-header">
                 <div class="card-icon">
                     <img src="${iconUrl}" alt="${link.title} icon" 
-                         onerror="this.src='${avatarSrc}'">
+                         onerror="this.src='${avatarSrc}'" loading="lazy">
                 </div>
                 <span class="card-category">${link.category}</span>
             </div>
@@ -196,8 +199,10 @@ function renderLinks() {
             </div>
         `;
 
-        linksGrid.appendChild(card);
+        fragment.appendChild(card);
     });
+    
+    linksGrid.appendChild(fragment);
 }
 
 
