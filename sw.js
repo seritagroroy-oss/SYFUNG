@@ -1,4 +1,4 @@
-const CACHE_NAME = 'syfung-cache-v2';
+const CACHE_NAME = 'syfung-cache-v3';
 const urlsToCache = [
     './',
     './index.html',
