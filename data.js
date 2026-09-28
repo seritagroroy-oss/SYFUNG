@@ -521,5 +521,6 @@ const SYFUNG_LINKS = [
     { id: "hwinfo", title: "HWiNFO", url: "https://www.hwinfo.com/", category: "WINDOWS - UTILITAIRES", description: "Surveillance matérielle complète de votre PC en temps réel.", date: "2026-08-01" },
     { id: "poweriso", title: "PowerISO", url: "https://www.poweriso.com/download.htm", category: "WINDOWS - UTILITAIRES", description: "Outil puissant pour le traitement des fichiers images CD/DVD/BD." },
     { id: "clubic", title: "Clubic", url: "https://www.clubic.com/", category: "DIVERS - AUTRE", description: "Actualités Tech, astuces et téléchargements logiciels." },
-    { id: "duckduckgonoai", title: "DuckDuckGo (No AI)", url: "https://noai.duckduckgo.com/", category: "DIVERS - OUTILS", description: "Moteur de recherche centré sur la vie privée, garanti sans aucune fonctionnalité générée par l'IA.", date: "2026-09-28", icon: "https://duckduckgo.com/favicon.ico" }
+    { id: "duckduckgonoai", title: "DuckDuckGo (No AI)", url: "https://noai.duckduckgo.com/", category: "DIVERS - OUTILS", description: "Moteur de recherche centré sur la vie privée, garanti sans aucune fonctionnalité générée par l'IA.", date: "2026-09-28", icon: "https://duckduckgo.com/favicon.ico" },
+    { id: "startpage", title: "Startpage", url: "https://www.startpage.com/", category: "DIVERS - OUTILS", description: "Moteur de recherche privé qui affiche les résultats Google sans vous tracer ni collecter vos données.", date: "2026-09-28", icon: "https://www.startpage.com/favicon.ico" }
 ];
