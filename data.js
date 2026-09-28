@@ -520,5 +520,6 @@ const SYFUNG_LINKS = [
     { id: "autoruns", title: "Autoruns", url: "https://learn.microsoft.com/fr-fr/sysinternals/downloads/autoruns", category: "WINDOWS - UTILITAIRES", description: "Gérez tout ce qui démarre automatiquement sur Windows.", date: "2026-08-01" },
     { id: "hwinfo", title: "HWiNFO", url: "https://www.hwinfo.com/", category: "WINDOWS - UTILITAIRES", description: "Surveillance matérielle complète de votre PC en temps réel.", date: "2026-08-01" },
     { id: "poweriso", title: "PowerISO", url: "https://www.poweriso.com/download.htm", category: "WINDOWS - UTILITAIRES", description: "Outil puissant pour le traitement des fichiers images CD/DVD/BD." },
-    { id: "clubic", title: "Clubic", url: "https://www.clubic.com/", category: "DIVERS - AUTRE", description: "Actualités Tech, astuces et téléchargements logiciels." }
+    { id: "clubic", title: "Clubic", url: "https://www.clubic.com/", category: "DIVERS - AUTRE", description: "Actualités Tech, astuces et téléchargements logiciels." },
+    { id: "duckduckgonoai", title: "DuckDuckGo (No AI)", url: "https://noai.duckduckgo.com/", category: "DIVERS - OUTILS", description: "Moteur de recherche centré sur la vie privée, garanti sans aucune fonctionnalité générée par l'IA." }
 ];
