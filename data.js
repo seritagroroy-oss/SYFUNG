@@ -1,4 +1,5 @@
 const SYFUNG_LINKS = [
+    { id: "ashna", title: "Ashna AI", url: "https://www.ashna.ai/", category: "IA - RECHERCHE", description: "Plateforme no-code pour créer et déployer des agents IA personnalisés." },
     { id: "chatgpt", title: "ChatGPT", url: "https://chat.openai.com", category: "IA - RECHERCHE", description: "Assistant virtuel par OpenAI." },
     { id: "gemini", title: "Gemini", url: "https://gemini.google.com", category: "IA - RECHERCHE", description: "Modèle IA par Google." },
     { id: "claude", title: "Claude", url: "https://claude.ai", category: "IA - RECHERCHE", description: "Assistant IA par Anthropic." },
