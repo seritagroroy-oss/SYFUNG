@@ -95,6 +95,9 @@ function getFaviconUrl(link) {
     if (link.icon) return link.icon;
     try {
         const urlObj = new URL(link.url);
+        if (urlObj.hostname === 'chromewebstore.google.com' || urlObj.hostname === 'chrome.google.com') {
+            return null; // Force l'avatar généré au lieu de l'icône générique du store
+        }
         // gstatic faviconV2 est plus fiable que l'ancienne API Google
         return `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${encodeURIComponent(link.url)}&size=64`;
     } catch (e) {
@@ -189,8 +192,9 @@ function renderLinks() {
         card.className = 'link-card';
         card.style.animationDelay = `${index * 0.01}s`; // Reduced delay for faster perception
 
-        const iconUrl = getFaviconUrl(link);
         const avatarSrc = generateAvatar(link.title);
+        let iconUrl = getFaviconUrl(link);
+        if (!iconUrl) iconUrl = avatarSrc;
         
         const titleHtml = highlightText(link.title, searchQuery);
         const descHtml = highlightText(link.description || link.url, searchQuery);
