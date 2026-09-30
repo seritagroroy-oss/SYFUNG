@@ -1,57 +1,4 @@
-const SYFUNG_LINKS_2 = [
-    {
-        "id": "synchronisation",
-        "title": "SYNCHRONISATION",
-        "url": "https://syncthemcalendars.com",
-        "category": "DIVERS",
-        "description": "Synchronisation bidirectionnelle avec Google Agenda."
-    },
-    {
-        "id": "uuidgenerator",
-        "title": "Générateur d'UUID",
-        "url": "https://www.uuidgenerator.net",
-        "category": "DIVERS",
-        "description": "Générez instantanément des UUID (v1, v4, v7), GUID, NanoID, ULID..."
-    },
-    {
-        "id": "versionfeeds",
-        "title": "Versionfeeds",
-        "url": "https://versionfeeds.com",
-        "category": "DIVERS",
-        "description": "Flux RSS personnalisés pour les mises à jour de vos logiciels préférés."
-    },
-    {
-        "id": "osint4all",
-        "title": "OSINT4ALL",
-        "url": "https://start.me/p/L1rEYQ/osint4all",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Boîte à outils OSINT complète pour la recherche et l'investigation en ligne.",
-        "icon": "https://start.me/favicon.ico"
-    },
-    {
-        "id": "fingerprint",
-        "title": "Fingerprint.to",
-        "url": "https://fingerprint.to/",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Analyse votre empreinte numérique (navigateur, IP, OS) pour tester votre anonymat.",
-        "icon": "https://fingerprint.to/favicon.ico"
-    },
-    {
-        "id": "osintframework",
-        "title": "OSINT Framework",
-        "url": "https://osintframework.com/",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Arbre visuel de tous les outils OSINT classés par catégorie.",
-        "icon": "https://osintframework.com/favicon.ico"
-    },
-    {
-        "id": "fakenamegenerator",
-        "title": "Fake Name Generator",
-        "url": "https://www.fakenamegenerator.com/",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Génère des identités fictives complètes (nom, adresse, numéro de téléphone, etc.) pour protéger votre vie privée.",
-        "icon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.fakenamegenerator.com&size=64"
-    },
+const LINKS_API = [
     {
         "id": "abstractapi",
         "title": "Abstract API",
@@ -1017,5 +964,159 @@ const SYFUNG_LINKS_2 = [
         "url": "https://wrapapi.com",
         "category": "API",
         "description": "Transformez n'importe quel site web en une API paramétrable."
+    },
+    {
+        "id": "zenscrape",
+        "title": "Zenscrape",
+        "url": "https://zenscrape.com",
+        "category": "API",
+        "description": "API de web scraping avec proxys résidentiels."
+    },
+    {
+        "id": "zipcodebase",
+        "title": "Zipcodebase",
+        "url": "https://zipcodebase.com",
+        "category": "API",
+        "description": "API mondiale de codes postaux."
+    },
+    {
+        "id": "zipcodeapi",
+        "title": "Zipcodeapi",
+        "url": "https://zipcodeapi.com",
+        "category": "API",
+        "description": "API REST pour codes postaux US/CA."
+    },
+    {
+        "id": "zipcodestack",
+        "title": "Zipcodestack",
+        "url": "https://zipcodestack.com",
+        "category": "API",
+        "description": "Vérification et validation de codes postaux."
+    },
+    {
+        "id": "zuplo",
+        "title": "Zuplo",
+        "url": "https://zuplo.com",
+        "category": "API",
+        "description": "Gestion d'API en périphérie (Edge)."
+    },
+    {
+        "id": "metashot",
+        "title": "Metashot",
+        "url": "https://metashot.com",
+        "category": "API",
+        "description": "API de génération d'images Open Graph."
+    },
+    {
+        "id": "apiflash",
+        "title": "ApiFlash",
+        "url": "https://apiflash.com",
+        "category": "API",
+        "description": "API de capture d'écran basée sur AWS Lambda et Chrome (page entière, timing, dimensions)."
+    },
+    {
+        "id": "phantomjscloud",
+        "title": "PhantomJsCloud",
+        "url": "https://phantomjscloud.com",
+        "category": "API",
+        "description": "Automatisation du navigateur et rendu de pages (jusqu'à 500 pages/jour gratuitement)."
+    },
+    {
+        "id": "screenshotbase",
+        "title": "screenshotbase.com",
+        "url": "https://screenshotbase.com",
+        "category": "API",
+        "description": "300 captures d'écran gratuites par mois depuis n'importe quelle URL."
+    },
+    {
+        "id": "screenshotlayer",
+        "title": "screenshotlayer.com",
+        "url": "https://screenshotlayer.com",
+        "category": "API",
+        "description": "Capturez des captures d'écran hautement personnalisables (100 gratuites/mois)."
+    },
+    {
+        "id": "screenshotmachine",
+        "title": "screenshotmachine.com",
+        "url": "https://screenshotmachine.com",
+        "category": "API",
+        "description": "Capturez 100 captures d'écran par mois (png, gif, jpg), y compris des pages complètes."
+    },
+    {
+        "id": "screenshotscout",
+        "title": "Screenshot Scout",
+        "url": "https://screenshotscout.com",
+        "category": "API",
+        "description": "API de capture d'écran pour développeurs (200 captures gratuites/mois à vie)."
+    },
+    {
+        "id": "shotpipe",
+        "title": "Shotpipe",
+        "url": "https://shotpipe.com",
+        "category": "API",
+        "description": "API de capture d'écran et d'images Open Graph pour sites statiques (100 rendus/mois)."
+    },
+    {
+        "id": "snapapi",
+        "title": "SnapAPI",
+        "url": "https://snapapi.io",
+        "category": "API",
+        "description": "API de capture d'écran, d'enregistrement vidéo, de génération de PDF et d'extraction (200/mois)."
+    },
+    {
+        "id": "thumbnailws",
+        "title": "thumbnail.ws",
+        "url": "https://thumbnail.ws",
+        "category": "API",
+        "description": "API permettant de générer des miniatures de sites web (1 000 requêtes gratuites/mois)."
+    },
+    {
+        "id": "numverify",
+        "title": "numverify",
+        "url": "https://numverify.com",
+        "category": "API",
+        "description": "API JSON globale de validation et de recherche de numéros de téléphone (100 requêtes API/mois)."
+    },
+    {
+        "id": "veriphone",
+        "title": "Veriphone",
+        "url": "https://veriphone.io",
+        "category": "API",
+        "description": "Vérification de numéros de téléphone à l'échelle mondiale via une API JSON gratuite (1000 requêtes/mois)."
+    },
+    {
+        "id": "rapidapi",
+        "title": "RapidAPI",
+        "url": "https://rapidapi.com/",
+        "category": "API - PUBLIQUES",
+        "description": "Le plus grand hub d'API au monde."
+    },
+    {
+        "id": "public-apis",
+        "title": "Public APIs",
+        "url": "https://github.com/public-apis/public-apis",
+        "category": "API - PUBLIQUES",
+        "description": "Liste GitHub gigantesque d'API gratuites."
+    },
+    {
+        "id": "stripe-api",
+        "title": "Stripe API",
+        "url": "https://stripe.com/docs/api",
+        "category": "API - PUBLIQUES",
+        "description": "La référence des API de paiement."
+    },
+    {
+        "id": "twilio-api",
+        "title": "Twilio API",
+        "url": "https://www.twilio.com/docs",
+        "category": "API - PUBLIQUES",
+        "description": "API de communication (SMS, Voix)."
+    },
+    {
+        "id": "swagger",
+        "title": "Swagger",
+        "url": "https://swagger.io/",
+        "category": "API - OUTILS",
+        "description": "Outils pour concevoir, créer et documenter des API REST."
     }
 ];

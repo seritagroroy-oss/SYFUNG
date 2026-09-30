@@ -1,214 +1,4 @@
-const SYFUNG_LINKS_3 = [
-    {
-        "id": "zenscrape",
-        "title": "Zenscrape",
-        "url": "https://zenscrape.com",
-        "category": "API",
-        "description": "API de web scraping avec proxys résidentiels."
-    },
-    {
-        "id": "zipcodebase",
-        "title": "Zipcodebase",
-        "url": "https://zipcodebase.com",
-        "category": "API",
-        "description": "API mondiale de codes postaux."
-    },
-    {
-        "id": "zipcodeapi",
-        "title": "Zipcodeapi",
-        "url": "https://zipcodeapi.com",
-        "category": "API",
-        "description": "API REST pour codes postaux US/CA."
-    },
-    {
-        "id": "zipcodestack",
-        "title": "Zipcodestack",
-        "url": "https://zipcodestack.com",
-        "category": "API",
-        "description": "Vérification et validation de codes postaux."
-    },
-    {
-        "id": "zuplo",
-        "title": "Zuplo",
-        "url": "https://zuplo.com",
-        "category": "API",
-        "description": "Gestion d'API en périphérie (Edge)."
-    },
-    {
-        "id": "metashot",
-        "title": "Metashot",
-        "url": "https://metashot.com",
-        "category": "API",
-        "description": "API de génération d'images Open Graph."
-    },
-    {
-        "id": "apiflash",
-        "title": "ApiFlash",
-        "url": "https://apiflash.com",
-        "category": "API",
-        "description": "API de capture d'écran basée sur AWS Lambda et Chrome (page entière, timing, dimensions)."
-    },
-    {
-        "id": "phantomjscloud",
-        "title": "PhantomJsCloud",
-        "url": "https://phantomjscloud.com",
-        "category": "API",
-        "description": "Automatisation du navigateur et rendu de pages (jusqu'à 500 pages/jour gratuitement)."
-    },
-    {
-        "id": "screenshotbase",
-        "title": "screenshotbase.com",
-        "url": "https://screenshotbase.com",
-        "category": "API",
-        "description": "300 captures d'écran gratuites par mois depuis n'importe quelle URL."
-    },
-    {
-        "id": "screenshotlayer",
-        "title": "screenshotlayer.com",
-        "url": "https://screenshotlayer.com",
-        "category": "API",
-        "description": "Capturez des captures d'écran hautement personnalisables (100 gratuites/mois)."
-    },
-    {
-        "id": "screenshotmachine",
-        "title": "screenshotmachine.com",
-        "url": "https://screenshotmachine.com",
-        "category": "API",
-        "description": "Capturez 100 captures d'écran par mois (png, gif, jpg), y compris des pages complètes."
-    },
-    {
-        "id": "screenshotscout",
-        "title": "Screenshot Scout",
-        "url": "https://screenshotscout.com",
-        "category": "API",
-        "description": "API de capture d'écran pour développeurs (200 captures gratuites/mois à vie)."
-    },
-    {
-        "id": "shotpipe",
-        "title": "Shotpipe",
-        "url": "https://shotpipe.com",
-        "category": "API",
-        "description": "API de capture d'écran et d'images Open Graph pour sites statiques (100 rendus/mois)."
-    },
-    {
-        "id": "snapapi",
-        "title": "SnapAPI",
-        "url": "https://snapapi.io",
-        "category": "API",
-        "description": "API de capture d'écran, d'enregistrement vidéo, de génération de PDF et d'extraction (200/mois)."
-    },
-    {
-        "id": "thumbnailws",
-        "title": "thumbnail.ws",
-        "url": "https://thumbnail.ws",
-        "category": "API",
-        "description": "API permettant de générer des miniatures de sites web (1 000 requêtes gratuites/mois)."
-    },
-    {
-        "id": "numverify",
-        "title": "numverify",
-        "url": "https://numverify.com",
-        "category": "API",
-        "description": "API JSON globale de validation et de recherche de numéros de téléphone (100 requêtes API/mois)."
-    },
-    {
-        "id": "veriphone",
-        "title": "Veriphone",
-        "url": "https://veriphone.io",
-        "category": "API",
-        "description": "Vérification de numéros de téléphone à l'échelle mondiale via une API JSON gratuite (1000 requêtes/mois)."
-    },
-    {
-        "id": "ankergames",
-        "title": "Anker Games",
-        "url": "https://ankergames.net/",
-        "category": "JEUX - PC",
-        "description": "Jeux PC à télécharger."
-    },
-    {
-        "id": "itchio",
-        "title": "Itch.io",
-        "url": "https://itch.io/",
-        "category": "JEUX - PC",
-        "description": "Plateforme de jeux indépendants."
-    },
-    {
-        "id": "gog",
-        "title": "GOG (Good Old Games)",
-        "url": "https://www.gog.com/",
-        "category": "JEUX - PC",
-        "description": "Jeux sans DRM et classiques optimisés."
-    },
-    {
-        "id": "freeroms",
-        "title": "FreeROMS",
-        "url": "https://www.freeroms.com/",
-        "category": "JEUX - RETRO",
-        "description": "ROMs de jeux pour émulateurs."
-    },
-    {
-        "id": "arcadespace",
-        "title": "Arcade Space",
-        "url": "https://www.arcadespace.org/home",
-        "category": "JEUX - RETRO",
-        "description": "Jeux d'arcade classiques."
-    },
-    {
-        "id": "myabandonware",
-        "title": "My Abandonware",
-        "url": "https://www.myabandonware.com/",
-        "category": "JEUX - RETRO",
-        "description": "Téléchargement d'anciens jeux PC classiques."
-    },
-    {
-        "id": "vimmslair",
-        "title": "Vimm's Lair",
-        "url": "https://vimm.net/",
-        "category": "JEUX - RETRO",
-        "description": "ROMs de consoles classiques."
-    },
-    {
-        "id": "retrogamescc",
-        "title": "Retrogames.cc",
-        "url": "https://www.retrogames.cc/",
-        "category": "JEUX - RETRO",
-        "description": "Jouer à des jeux rétro dans le navigateur."
-    },
-    {
-        "id": "crazygames",
-        "title": "CrazyGames",
-        "url": "https://www.crazygames.fr/",
-        "category": "JEUX - NAVIGATEUR",
-        "description": "Catalogue de jeux web gratuits."
-    },
-    {
-        "id": "poki",
-        "title": "Poki",
-        "url": "https://poki.com/fr",
-        "category": "JEUX - NAVIGATEUR",
-        "description": "Jeux web rapides sans installation."
-    },
-    {
-        "id": "batcave",
-        "title": "Batcave",
-        "url": "https://batcave.biz/",
-        "category": "EBOOK - LITTÉRATURE",
-        "description": "Bibliothèque de livres électroniques."
-    },
-    {
-        "id": "topcartoons",
-        "title": "Top Cartoons",
-        "url": "https://www.topcartoons.tv/",
-        "category": "FILMS - ANIMATION",
-        "description": "Dessins animés et séries d'animation."
-    },
-    {
-        "id": "pwncollege",
-        "title": "pwn.college",
-        "url": "https://pwn.college/",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Plateforme d'apprentissage et d'entraînement en cybersécurité."
-    },
+const LINKS_MONTAGE = [
     {
         "id": "nimvideo",
         "title": "NIM Video",
@@ -875,143 +665,35 @@ const SYFUNG_LINKS_3 = [
         "description": "Excellent outil pour l'optimisation de vidéos YouTube."
     },
     {
-        "id": "tryhackme",
-        "title": "TryHackMe",
-        "url": "https://tryhackme.com/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Apprentissage interactif de la cybersécurité pour tous niveaux."
+        "id": "davinci",
+        "title": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/fr/products/davinciresolve/",
+        "category": "MONTAGE - PRO & PREMIUM",
+        "description": "Suite de montage vidéo professionnelle (version gratuite très complète).",
+        "date": "2026-08-01"
     },
     {
-        "id": "hackthebox",
-        "title": "Hack The Box",
-        "url": "https://www.hackthebox.com/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Plateforme d'entraînement au pentest et hacking éthique."
+        "id": "adobepremiere",
+        "title": "Adobe Premiere Pro",
+        "url": "https://www.adobe.com/fr/products/premiere.html",
+        "category": "MONTAGE - PRO & PREMIUM",
+        "description": "Le standard professionnel du montage vidéo par Adobe.",
+        "date": "2026-08-01"
     },
     {
-        "id": "rootme",
-        "title": "Root-Me",
-        "url": "https://www.root-me.org/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Améliorez vos compétences en hacking."
+        "id": "adobeexpress",
+        "title": "Adobe Express",
+        "url": "https://www.adobe.com/fr/express/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Création rapide de vidéos, posts et visuels en ligne.",
+        "date": "2026-08-01"
     },
     {
-        "id": "cybrary",
-        "title": "Cybrary",
-        "url": "https://www.cybrary.it/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Cours gratuits en cybersécurité et IT."
-    },
-    {
-        "id": "overthewire",
-        "title": "OverTheWire",
-        "url": "https://overthewire.org/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Apprenez les concepts de sécurité via des wargames."
-    },
-    {
-        "id": "vulnhub",
-        "title": "VulnHub",
-        "url": "https://www.vulnhub.com/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Machines virtuelles vulnérables pour s'entraîner."
-    },
-    {
-        "id": "portswigger",
-        "title": "PortSwigger Academy",
-        "url": "https://portswigger.net/web-security",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Apprentissage gratuit de la sécurité web par les créateurs de Burp."
-    },
-    {
-        "id": "pentesterlab",
-        "title": "PentesterLab",
-        "url": "https://pentesterlab.com/",
-        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
-        "description": "Exercices pratiques de pénétration web."
-    },
-    {
-        "id": "kali",
-        "title": "Kali Linux",
-        "url": "https://www.kali.org/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Distribution Linux ultime pour le pentest."
-    },
-    {
-        "id": "wireshark",
-        "title": "Wireshark",
-        "url": "https://www.wireshark.org/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Analyseur de protocole réseau le plus utilisé."
-    },
-    {
-        "id": "burpsuite",
-        "title": "Burp Suite",
-        "url": "https://portswigger.net/burp",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Outil de test de sécurité des applications web."
-    },
-    {
-        "id": "nmap",
-        "title": "Nmap",
-        "url": "https://nmap.org/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Scanner de sécurité réseau gratuit et open source."
-    },
-    {
-        "id": "metasploit",
-        "title": "Metasploit",
-        "url": "https://www.metasploit.com/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Framework de tests de pénétration le plus utilisé au monde."
-    },
-    {
-        "id": "johntheripper",
-        "title": "John the Ripper",
-        "url": "https://www.openwall.com/john/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Craqueur de mots de passe très populaire."
-    },
-    {
-        "id": "hashcat",
-        "title": "Hashcat",
-        "url": "https://hashcat.net/hashcat/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Utilitaire de récupération de mots de passe le plus rapide."
-    },
-    {
-        "id": "owaspzap",
-        "title": "OWASP ZAP",
-        "url": "https://www.zaproxy.org/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Scanner de vulnérabilités web gratuit."
-    },
-    {
-        "id": "shodan",
-        "title": "Shodan",
-        "url": "https://www.shodan.io/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Moteur de recherche pour les appareils connectés à Internet."
-    },
-    {
-        "id": "virustotal",
-        "title": "VirusTotal",
-        "url": "https://www.virustotal.com/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
-        "description": "Analyse des fichiers et URLs suspects."
-    },
-    {
-        "id": "netflix",
-        "title": "Netflix",
-        "url": "https://www.netflix.com/",
-        "category": "FILMS - STREAMING",
-        "description": "Plateforme de streaming de films et séries."
-    },
-    {
-        "id": "primevideo",
-        "title": "Prime Video",
-        "url": "https://www.primevideo.com/",
-        "category": "FILMS - STREAMING",
-        "description": "Films, séries et productions originales Amazon."
+        "id": "clippchamp",
+        "title": "Clipchamp",
+        "url": "https://clipchamp.com/fr/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Éditeur vidéo en ligne gratuit intégré à Windows 11.",
+        "date": "2026-08-01"
     }
 ];

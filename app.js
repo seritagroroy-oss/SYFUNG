@@ -2,11 +2,21 @@
 // Initial Data & State
 // ==========================================================================
 let links = [];
-if (typeof SYFUNG_LINKS_1 !== 'undefined') links = links.concat(SYFUNG_LINKS_1);
-if (typeof SYFUNG_LINKS_2 !== 'undefined') links = links.concat(SYFUNG_LINKS_2);
-if (typeof SYFUNG_LINKS_3 !== 'undefined') links = links.concat(SYFUNG_LINKS_3);
-if (typeof SYFUNG_LINKS_4 !== 'undefined') links = links.concat(SYFUNG_LINKS_4);
-
+if (typeof LINKS_IA !== 'undefined') links = links.concat(LINKS_IA);
+if (typeof LINKS_DEV !== 'undefined') links = links.concat(LINKS_DEV);
+if (typeof LINKS_DIVERS !== 'undefined') links = links.concat(LINKS_DIVERS);
+if (typeof LINKS_WINDOWS !== 'undefined') links = links.concat(LINKS_WINDOWS);
+if (typeof LINKS_OFFICES !== 'undefined') links = links.concat(LINKS_OFFICES);
+if (typeof LINKS_FORMATION !== 'undefined') links = links.concat(LINKS_FORMATION);
+if (typeof LINKS_LINUX !== 'undefined') links = links.concat(LINKS_LINUX);
+if (typeof LINKS_TUTOS !== 'undefined') links = links.concat(LINKS_TUTOS);
+if (typeof LINKS_CYBERSECURITE !== 'undefined') links = links.concat(LINKS_CYBERSECURITE);
+if (typeof LINKS_API !== 'undefined') links = links.concat(LINKS_API);
+if (typeof LINKS_JEUX !== 'undefined') links = links.concat(LINKS_JEUX);
+if (typeof LINKS_EBOOK !== 'undefined') links = links.concat(LINKS_EBOOK);
+if (typeof LINKS_FILMS !== 'undefined') links = links.concat(LINKS_FILMS);
+if (typeof LINKS_MONTAGE !== 'undefined') links = links.concat(LINKS_MONTAGE);
+if (typeof LINKS_MAINTENANCE_A_DISTANCE !== 'undefined') links = links.concat(LINKS_MAINTENANCE_A_DISTANCE);
 let currentCategory = 'all';
 let searchQuery = '';
 let currentSort = 'date-desc';
