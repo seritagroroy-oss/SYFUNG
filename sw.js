@@ -1,4 +1,4 @@
-const CACHE_NAME = 'syfung-cache-v4';
+const CACHE_NAME = 'syfung-cache-v5';
 
 // Fichiers statiques qui changent rarement
 const STATIC_ASSETS = [
@@ -33,7 +33,7 @@ self.addEventListener('activate', event => {
 // - Pour les images/assets statiques → cache en premier
 self.addEventListener('fetch', event => {
     const url = new URL(event.request.url);
-    const isDynamic = ['/data.js', '/style.css', '/app.js', '/index.html', '/'].some(p => url.pathname.endsWith(p));
+    const isDynamic = url.pathname.includes('/data/') || ['/style.css', '/app.js', '/index.html', '/'].some(p => url.pathname.endsWith(p));
 
     if (isDynamic) {
         // Network First : essaie le réseau, fallback cache si offline
