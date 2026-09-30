@@ -17,6 +17,7 @@ if (typeof LINKS_EBOOK !== 'undefined') links = links.concat(LINKS_EBOOK);
 if (typeof LINKS_FILMS !== 'undefined') links = links.concat(LINKS_FILMS);
 if (typeof LINKS_MONTAGE !== 'undefined') links = links.concat(LINKS_MONTAGE);
 if (typeof LINKS_MAINTENANCE_A_DISTANCE !== 'undefined') links = links.concat(LINKS_MAINTENANCE_A_DISTANCE);
+if (typeof LINKS_EXTENSIONS_CHROME !== 'undefined') links = links.concat(LINKS_EXTENSIONS_CHROME);
 let currentCategory = 'all';
 let searchQuery = '';
 let currentSort = 'date-desc';
