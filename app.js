@@ -1,7 +1,11 @@
 // ==========================================================================
 // Initial Data & State
 // ==========================================================================
-let links = typeof SYFUNG_LINKS !== 'undefined' ? SYFUNG_LINKS : [];
+let links = [];
+if (typeof SYFUNG_LINKS_1 !== 'undefined') links = links.concat(SYFUNG_LINKS_1);
+if (typeof SYFUNG_LINKS_2 !== 'undefined') links = links.concat(SYFUNG_LINKS_2);
+if (typeof SYFUNG_LINKS_3 !== 'undefined') links = links.concat(SYFUNG_LINKS_3);
+if (typeof SYFUNG_LINKS_4 !== 'undefined') links = links.concat(SYFUNG_LINKS_4);
 
 let currentCategory = 'all';
 let searchQuery = '';
