@@ -158,4 +158,153 @@ const LINKS_EXTENSIONS_CHROME = [
         "category": "EXTENSIONS CHROME - MÉDIAS",
         "description": "Réaffiche le compteur de dislikes supprimé sur YouTube."
     }
+    ,
+    {
+        "id": "clearurls",
+        "title": "ClearURLs",
+        "url": "https://chromewebstore.google.com/detail/clearurls/lckanjgkijjaebaghdckidkhiijafkmo",
+        "category": "EXTENSIONS CHROME - SÉCURITÉ",
+        "description": "Supprime automatiquement les paramètres de pistage cachés dans les liens URL."
+    },
+    {
+        "id": "ghostery",
+        "title": "Ghostery",
+        "url": "https://chromewebstore.google.com/detail/ghostery-privacy-ad-blocker/mlomiejdfkolichcflejclcbmpeaniij",
+        "category": "EXTENSIONS CHROME - SÉCURITÉ",
+        "description": "Bloqueur de publicités intelligent doté d'une interface très visuelle."
+    },
+    {
+        "id": "malwarebytes-browser-guard",
+        "title": "Malwarebytes Browser Guard",
+        "url": "https://chromewebstore.google.com/detail/malwarebytes-browser-guar/ihcjicgdanjaechkgeegckofjjedodee",
+        "category": "EXTENSIONS CHROME - SÉCURITÉ",
+        "description": "Bloque les arnaques techniques, sites malveillants et ransomwares."
+    },
+    {
+        "id": "harpa-ai",
+        "title": "HARPA AI",
+        "url": "https://chromewebstore.google.com/detail/harpa-ai-automation-agent/eanggfilpcehgdhfldikcnpgghkceeka",
+        "category": "EXTENSIONS CHROME - IA",
+        "description": "Automatisation web, monitoring de prix et agent IA pour résumer des pages/vidéos."
+    },
+    {
+        "id": "aiprm-chatgpt",
+        "title": "AIPRM for ChatGPT",
+        "url": "https://chromewebstore.google.com/detail/aiprm-for-chatgpt/ojnbohmppadfgpejeebfnmncgigjhhom",
+        "category": "EXTENSIONS CHROME - IA",
+        "description": "Des milliers de modèles de requêtes préconçues de haute qualité pour ChatGPT."
+    },
+    {
+        "id": "scispace-copilot",
+        "title": "SciSpace Copilot",
+        "url": "https://chromewebstore.google.com/detail/scispace-copilot/cipccbpjpemcnijhjcdmpkbknhhlmfpo",
+        "category": "EXTENSIONS CHROME - IA",
+        "description": "IA capable de vous expliquer n'importe quel texte technique ou document de recherche."
+    },
+    {
+        "id": "momentum",
+        "title": "Momentum",
+        "url": "https://chromewebstore.google.com/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca",
+        "category": "EXTENSIONS CHROME - PRODUCTIVITÉ",
+        "description": "Remplace le nouvel onglet par une superbe photo, météo, focus et to-do list."
+    },
+    {
+        "id": "languagetool",
+        "title": "LanguageTool",
+        "url": "https://chromewebstore.google.com/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji",
+        "category": "EXTENSIONS CHROME - PRODUCTIVITÉ",
+        "description": "Correcteur d'orthographe et de grammaire surpuissant multilingue."
+    },
+    {
+        "id": "forest",
+        "title": "Forest",
+        "url": "https://chromewebstore.google.com/detail/forest-stay-focused-be-pr/kjacjjdnoddnpkngiddhojdghnfcjbpf",
+        "category": "EXTENSIONS CHROME - PRODUCTIVITÉ",
+        "description": "Extension de concentration (Pomodoro) basée sur la plantation d'arbres virtuels."
+    },
+    {
+        "id": "todoist",
+        "title": "Todoist",
+        "url": "https://chromewebstore.google.com/detail/todoist-for-chrome/jgenjdpfckmcpdhlpogboehhlkpjdfodh",
+        "category": "EXTENSIONS CHROME - PRODUCTIVITÉ",
+        "description": "Gérez vos tâches et votre to-do list directement depuis n'importe quelle page web."
+    },
+    {
+        "id": "whatfont",
+        "title": "WhatFont",
+        "url": "https://chromewebstore.google.com/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcbgm",
+        "category": "EXTENSIONS CHROME - DESIGN & DEV",
+        "description": "Découvrez instantanément quelle police de caractères est utilisée sur un texte."
+    },
+    {
+        "id": "react-developer-tools",
+        "title": "React Developer Tools",
+        "url": "https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+        "category": "EXTENSIONS CHROME - DESIGN & DEV",
+        "description": "Inspectez et déboguez les applications web développées avec React."
+    },
+    {
+        "id": "modheader",
+        "title": "ModHeader",
+        "url": "https://chromewebstore.google.com/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj",
+        "category": "EXTENSIONS CHROME - DESIGN & DEV",
+        "description": "Modifiez ou ajoutez facilement des en-têtes HTTP pour tester des API."
+    },
+    {
+        "id": "cssviewer",
+        "title": "CSSViewer",
+        "url": "https://chromewebstore.google.com/detail/cssviewer/ggfgijbpiheegefliciemofobhmoffoe",
+        "category": "EXTENSIONS CHROME - DESIGN & DEV",
+        "description": "Affiche toutes les propriétés CSS de n'importe quel élément survolé."
+    },
+    {
+        "id": "idontcareaboutcookies",
+        "title": "I don't care about cookies",
+        "url": "https://chromewebstore.google.com/detail/i-dont-care-about-cookies/fihnjjcciajhdojfnbdddfaoknhalnja",
+        "category": "EXTENSIONS CHROME - NAVIGATION",
+        "description": "Supprime ou accepte automatiquement les fenêtres de consentement aux cookies."
+    },
+    {
+        "id": "vimium",
+        "title": "Vimium",
+        "url": "https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb",
+        "category": "EXTENSIONS CHROME - NAVIGATION",
+        "description": "Naviguez sur tout le web uniquement avec votre clavier (raccourcis Vim)."
+    },
+    {
+        "id": "picture-in-picture",
+        "title": "Picture-in-Picture Extension",
+        "url": "https://chromewebstore.google.com/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopgnnk",
+        "category": "EXTENSIONS CHROME - NAVIGATION",
+        "description": "Détachez n'importe quelle vidéo dans un mini-lecteur flottant."
+    },
+    {
+        "id": "session-buddy",
+        "title": "Session Buddy",
+        "url": "https://chromewebstore.google.com/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko",
+        "category": "EXTENSIONS CHROME - NAVIGATION",
+        "description": "Sauvegardez vos onglets ouverts et restaurez votre travail après un plantage."
+    },
+    {
+        "id": "enhancer-for-youtube",
+        "title": "Enhancer for YouTube",
+        "url": "https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfhlpaicmfdikphhbnpnf",
+        "category": "EXTENSIONS CHROME - MÉDIAS",
+        "description": "Ajoute des dizaines de fonctionnalités à YouTube (contrôle volume, thème sombre...)."
+    },
+    {
+        "id": "volume-master",
+        "title": "Volume Master",
+        "url": "https://chromewebstore.google.com/detail/volume-master/jghecgabfgfdldnmbfkhmffcabokigjc",
+        "category": "EXTENSIONS CHROME - MÉDIAS",
+        "description": "Booster le volume de n'importe quel onglet jusqu'à 600%."
+    },
+    {
+        "id": "video-speed-controller",
+        "title": "Video Speed Controller",
+        "url": "https://chromewebstore.google.com/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk",
+        "category": "EXTENSIONS CHROME - MÉDIAS",
+        "description": "Contrôlez la vitesse de n'importe quelle vidéo HTML5 avec des raccourcis clavier."
+    }
+
 ];
