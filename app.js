@@ -134,7 +134,7 @@ function renderLinks() {
     let filtered = links;
 
     if (currentCategory !== 'all') {
-        const parentCategories = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'WINDOWS', 'API'];
+        const parentCategories = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'WINDOWS', 'API', 'EXTENSIONS CHROME'];
         if (parentCategories.includes(currentCategory)) {
             filtered = filtered.filter(link => link.category.startsWith(currentCategory));
         } else {
@@ -295,7 +295,7 @@ function setupEventListeners() {
     // Categories filtering
     categoryItems.forEach(item => {
         item.addEventListener('click', (e) => {
-            const parentCats = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS'];
+            const parentCats = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'EXTENSIONS CHROME'];
             if (parentCats.includes(item.getAttribute('data-category'))) {
                 if (e.target.classList.contains('submenu-toggle')) {
                     item.classList.toggle('expanded');
