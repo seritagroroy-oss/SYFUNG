@@ -327,5 +327,13 @@ const LINKS_DIVERS = [
         "description": "Moteur de recherche privé qui affiche les résultats Google sans vous tracer ni collecter vos données.",
         "date": "2026-09-28",
         "icon": "https://www.startpage.com/favicon.ico"
+    },
+    {
+        "id": "driveandlisten",
+        "title": "Drive & Listen",
+        "url": "https://driveandlisten.herokuapp.com/",
+        "category": "DIVERS",
+        "description": "Conduisez virtuellement dans des dizaines de villes à travers le monde tout en écoutant les radios locales.",
+        "date": "2026-10-01"
     }
 ];
