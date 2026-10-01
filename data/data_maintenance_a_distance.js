@@ -390,5 +390,12 @@ const LINKS_MAINTENANCE_A_DISTANCE = [
         "url": "https://www.atera.com/fr/",
         "category": "MAINTENANCE A DISTANCE",
         "description": "Plateforme RMM cloud tout-en-un pour les professionnels de l'IT avec des fonctions d'accès et support à distance."
+    },
+    {
+        "id": "scrcpy",
+        "title": "Scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy",
+        "category": "MAINTENANCE A DISTANCE",
+        "description": "Outil open-source léger pour afficher et contrôler vos appareils Android depuis votre PC (via USB ou Wi-Fi) sans root."
     }
 ];
