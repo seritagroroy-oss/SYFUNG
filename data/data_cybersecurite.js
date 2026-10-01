@@ -195,5 +195,21 @@ const LINKS_CYBERSECURITE = [
         "category": "CYBERSÉCURITÉ - OUTILS",
         "description": "Moteur de recherche par reconnaissance faciale (OSINT).",
         "date": "2026-10-01"
+    },
+    {
+        "id": "hacksplaining",
+        "title": "Hacksplaining",
+        "url": "https://www.hacksplaining.com/lessons",
+        "category": "CYBERSÉCURITÉ - APPRENTISSAGE",
+        "description": "Leçons interactives et simples pour comprendre les vulnérabilités de sécurité et apprendre le hacking éthique.",
+        "date": "2026-10-01"
+    },
+    {
+        "id": "redditprivacy",
+        "title": "r/privacy (Reddit)",
+        "url": "https://www.reddit.com/r/privacy/?tl=fr",
+        "category": "CYBERSÉCURITÉ",
+        "description": "Communauté de discussion sur la protection de la vie privée en ligne et la sécurité de l'information.",
+        "date": "2026-10-01"
     }
 ];

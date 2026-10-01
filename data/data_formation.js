@@ -190,5 +190,13 @@ const LINKS_FORMATION = [
         "category": "FORMATION - TECH",
         "description": "Certificat professionnel Google pour apprendre à utiliser l'IA générative dans son quotidien et booster sa productivité.",
         "date": "2026-10-01"
+    },
+    {
+        "id": "lingohut",
+        "title": "LingoHut",
+        "url": "https://www.lingohut.com/fr",
+        "category": "FORMATION",
+        "description": "Apprenez gratuitement du vocabulaire et la prononciation dans plus de 45 langues différentes.",
+        "date": "2026-10-01"
     }
 ];

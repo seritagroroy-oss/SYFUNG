@@ -89,5 +89,13 @@ const LINKS_FILMS = [
         "url": "https://www.arte.tv/",
         "category": "FILMS - STREAMING",
         "description": "Documentaires, séries et films culturels gratuits."
+    },
+    {
+        "id": "secretflixcodes",
+        "title": "Secretflixcodes",
+        "url": "https://secretflixcodes.com/",
+        "category": "FILMS",
+        "description": "Découvrez et utilisez les codes secrets de Netflix pour accéder aux catégories cachées de films et séries.",
+        "date": "2026-10-01"
     }
 ];

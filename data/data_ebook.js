@@ -99,5 +99,13 @@ const LINKS_EBOOK = [
         "category": "EBOOK - TECH",
         "description": "Bibliothèque numérique ouverte avec des millions de livres.",
         "date": "2026-08-01"
+    },
+    {
+        "id": "gallica",
+        "title": "Gallica (BnF)",
+        "url": "https://gallica.bnf.fr/services/engine/search/advancedSearch/",
+        "category": "EBOOK",
+        "description": "Bibliothèque numérique de la Bibliothèque nationale de France, avec des millions de documents gratuits.",
+        "date": "2026-10-01"
     }
 ];

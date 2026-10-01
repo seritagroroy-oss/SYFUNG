@@ -335,5 +335,29 @@ const LINKS_DIVERS = [
         "category": "DIVERS",
         "description": "Conduisez virtuellement dans des dizaines de villes à travers le monde tout en écoutant les radios locales.",
         "date": "2026-10-01"
+    },
+    {
+        "id": "myfridgefood",
+        "title": "MyFridgeFood",
+        "url": "https://myfridgefood.com/",
+        "category": "DIVERS",
+        "description": "Sélectionnez les ingrédients que vous avez dans votre frigo, et le site vous propose des recettes à cuisiner.",
+        "date": "2026-10-01"
+    },
+    {
+        "id": "windy",
+        "title": "Windy",
+        "url": "https://www.windy.com/",
+        "category": "DIVERS",
+        "description": "Carte météo interactive mondiale en temps réel (vents, tempêtes, températures, radars).",
+        "date": "2026-10-01"
+    },
+    {
+        "id": "sobrief",
+        "title": "SoBrief",
+        "url": "https://sobrief.com/",
+        "category": "DIVERS",
+        "description": "Obtenez des résumés concis (audio et texte) de milliers de livres dans de nombreuses langues.",
+        "date": "2026-10-01"
     }
 ];
