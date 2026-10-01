@@ -182,5 +182,13 @@ const LINKS_FORMATION = [
         "category": "FORMATION - BUSINESS",
         "description": "Certifications SEO, marketing digital et publicité en ligne.",
         "date": "2026-08-01"
+    },
+    {
+        "id": "googleaiessentials",
+        "title": "Google AI Essentials",
+        "url": "https://www.coursera.org/professional-certificates/google-ai-essentials",
+        "category": "FORMATION - TECH",
+        "description": "Certificat professionnel Google pour apprendre à utiliser l'IA générative dans son quotidien et booster sa productivité.",
+        "date": "2026-10-01"
     }
 ];
