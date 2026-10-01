@@ -187,5 +187,13 @@ const LINKS_CYBERSECURITE = [
         "category": "CYBERSÉCURITÉ - OUTILS",
         "description": "Boîte à outils pour encoder, décoder et analyser des données.",
         "date": "2026-08-01"
+    },
+    {
+        "id": "pimeyes",
+        "title": "PimEyes",
+        "url": "https://pimeyes.com/",
+        "category": "CYBERSÉCURITÉ - OUTILS",
+        "description": "Moteur de recherche par reconnaissance faciale (OSINT).",
+        "date": "2026-10-01"
     }
 ];
