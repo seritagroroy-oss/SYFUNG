@@ -18,6 +18,7 @@ if (typeof LINKS_FILMS !== 'undefined') links = links.concat(LINKS_FILMS);
 if (typeof LINKS_MONTAGE !== 'undefined') links = links.concat(LINKS_MONTAGE);
 if (typeof LINKS_MAINTENANCE_A_DISTANCE !== 'undefined') links = links.concat(LINKS_MAINTENANCE_A_DISTANCE);
 if (typeof LINKS_EXTENSIONS_CHROME !== 'undefined') links = links.concat(LINKS_EXTENSIONS_CHROME);
+if (typeof LINKS_ESPACE !== 'undefined') links = links.concat(LINKS_ESPACE);
 let currentCategory = 'all';
 let searchQuery = '';
 let currentSort = 'date-desc';
@@ -137,7 +138,7 @@ function renderLinks() {
     let filtered = links;
 
     if (currentCategory !== 'all') {
-        const parentCategories = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'WINDOWS', 'API', 'EXTENSIONS CHROME'];
+        const parentCategories = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'WINDOWS', 'API', 'EXTENSIONS CHROME', 'ESPACE'];
         if (parentCategories.includes(currentCategory)) {
             filtered = filtered.filter(link => link.category.startsWith(currentCategory));
         } else {
@@ -299,7 +300,7 @@ function setupEventListeners() {
     // Categories filtering
     categoryItems.forEach(item => {
         item.addEventListener('click', (e) => {
-            const parentCats = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'EXTENSIONS CHROME'];
+            const parentCats = ['IA', 'DEV', 'JEUX', 'MONTAGE', 'DESIGN', 'MARKETING', 'FORMATION', 'EBOOK', 'FILMS', 'CYBERSÉCURITÉ', 'DIVERS', 'EXTENSIONS CHROME', 'WINDOWS', 'API', 'ESPACE'];
             if (parentCats.includes(item.getAttribute('data-category'))) {
                 if (e.target.classList.contains('submenu-toggle')) {
                     item.classList.toggle('expanded');
@@ -333,7 +334,11 @@ function setupEventListeners() {
                 'EBOOK': 'Livres & Ebooks',
                 'FILMS': 'Films & Animation',
                 'CYBERSÉCURITÉ': 'Cybersécurité',
-                'DIVERS': 'Outils Divers'
+                'DIVERS': 'Outils Divers',
+                'WINDOWS': 'Outils & Logiciels Windows',
+                'API': 'API & Tests',
+                'EXTENSIONS CHROME': 'Extensions Chrome',
+                'ESPACE': 'Espace & Satellites'
             };
             
             if (titleMap[currentCategory]) {
