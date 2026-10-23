@@ -215,5 +215,89 @@ const LINKS_ESPACE = [
         "url": "https://www.worldmonitor.app/fr/",
         "category": "ESPACE - OSINT & MONITORING",
         "description": "Plateforme globale d'intelligence géopolitique et de surveillance en direct (carte 3D, satellites, OSINT et télémétrie)."
+    },
+    {
+        "id": "liveuamap",
+        "title": "Liveuamap",
+        "url": "https://liveuamap.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte interactive géolocalisée en temps réel des conflits, guerres et crises géopolitiques mondiales."
+    },
+    {
+        "id": "bellingcat-map",
+        "title": "Bellingcat Investigation Map",
+        "url": "https://map.bellingcat.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Cartographie d'investigations, de géolocalisation et de vérification d'événements par le collectif OSINT."
+    },
+    {
+        "id": "crisis24",
+        "title": "Crisis24 Threat Monitor",
+        "url": "https://crisis24.garda.com/insights-intelligence/intelligence/threat-monitor",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Tableau de bord de renseignement sur les risques sécuritaires, terroristes et politiques mondiaux."
+    },
+    {
+        "id": "adsb-exchange",
+        "title": "ADS-B Exchange",
+        "url": "https://globe.adsbexchange.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Radar mondial non censuré pour traquer le trafic aérien militaire, gouvernemental et civil en direct."
+    },
+    {
+        "id": "flightradar24",
+        "title": "Flightradar24",
+        "url": "https://www.flightradar24.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Le radar en direct le plus populaire pour suivre les vols commerciaux et privés à travers le monde."
+    },
+    {
+        "id": "marinetraffic",
+        "title": "MarineTraffic",
+        "url": "https://www.marinetraffic.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Suivi mondial en temps réel du trafic maritime, cargos, pétroliers et navires via les signaux AIS."
+    },
+    {
+        "id": "vesselfinder",
+        "title": "VesselFinder",
+        "url": "https://www.vesselfinder.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Cartographie maritime en direct affichant les routes, positions et vitesses des navires en mer."
+    },
+    {
+        "id": "nasa-firms",
+        "title": "NASA FIRMS",
+        "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte thermique satellite de la NASA détectant en temps réel les incendies, explosions et frappes militaires."
+    },
+    {
+        "id": "zoom-earth",
+        "title": "Zoom Earth",
+        "url": "https://zoom.earth/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte satellite météo haute définition en temps réel pour suivre tempêtes, cyclones et feux de forêt."
+    },
+    {
+        "id": "usgs-earthquakes",
+        "title": "USGS Earthquakes",
+        "url": "https://earthquake.usgs.gov/earthquakes/map/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Surveillance sismologique mondiale en direct enregistrant la magnitude et l'épicentre des séismes."
+    },
+    {
+        "id": "submarine-cable-map",
+        "title": "Submarine Cable Map",
+        "url": "https://www.submarinecablemap.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Cartographie interactive complète de tous les câbles sous-marins de télécommunication de la planète."
+    },
+    {
+        "id": "cloudflare-radar",
+        "title": "Cloudflare Radar",
+        "url": "https://radar.cloudflare.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Observatoire mondial en temps réel du trafic Internet, des cyberattaques et des pannes de réseau."
     }
 ];
