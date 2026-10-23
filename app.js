@@ -106,9 +106,12 @@ function getFaviconUrl(link) {
     }
 }
 
+const avatarCache = {};
 function generateAvatar(title) {
+    const letter = (title && title.charAt(0) ? title.charAt(0) : '?').toUpperCase();
+    if (avatarCache[letter]) return avatarCache[letter];
+
     const colors = ['#6366f1','#8b5cf6','#ec4899','#f59e0b','#10b981','#3b82f6','#ef4444','#14b8a6'];
-    const letter = title.charAt(0).toUpperCase();
     const color = colors[letter.charCodeAt(0) % colors.length];
     const canvas = document.createElement('canvas');
     canvas.width = 64; canvas.height = 64;
@@ -122,7 +125,8 @@ function generateAvatar(title) {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillText(letter, 32, 34);
-    return canvas.toDataURL();
+    avatarCache[letter] = canvas.toDataURL();
+    return avatarCache[letter];
 }
 
 function highlightText(text, query) {
@@ -191,7 +195,7 @@ function renderLinks() {
     filtered.forEach((link, index) => {
         const card = document.createElement('article');
         card.className = 'link-card';
-        card.style.animationDelay = `${index * 0.01}s`; // Reduced delay for faster perception
+        card.style.animationDelay = `${Math.min(index, 16) * 0.02}s`;
 
         const avatarSrc = generateAvatar(link.title);
         let iconUrl = getFaviconUrl(link);

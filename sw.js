@@ -1,4 +1,4 @@
-const CACHE_NAME = 'syfung-cache-v5';
+const CACHE_NAME = 'syfung-cache-v6';
 
 // Fichiers statiques qui changent rarement
 const STATIC_ASSETS = [
@@ -7,7 +7,7 @@ const STATIC_ASSETS = [
     './poster.jpg'
 ];
 
-// Installation : on met en cache uniquement les assets statiques
+// Installation : on met en cache les assets statiques et on active immédiatement
 self.addEventListener('install', event => {
     self.skipWaiting();
     event.waitUntil(
@@ -15,7 +15,7 @@ self.addEventListener('install', event => {
     );
 });
 
-// Activation : supprime les vieux caches
+// Activation : supprime les vieux caches et prend le contrôle immédiatement
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames =>
@@ -28,37 +28,29 @@ self.addEventListener('activate', event => {
     );
 });
 
-// Stratégie NETWORK FIRST :
-// - Pour data.js, style.css, app.js, index.html → toujours le réseau en premier
-// - Pour les images/assets statiques → cache en premier
+// Stratégie STALE-WHILE-REVALIDATE :
+// Réponse instantanée depuis le cache (0ms) tout en mettant à jour en arrière-plan
 self.addEventListener('fetch', event => {
     const url = new URL(event.request.url);
-    const isDynamic = url.pathname.includes('/data/') || ['/style.css', '/app.js', '/index.html', '/'].some(p => url.pathname.endsWith(p));
 
-    if (isDynamic) {
-        // Network First : essaie le réseau, fallback cache si offline
-        event.respondWith(
-            fetch(event.request)
-                .then(response => {
-                    const clone = response.clone();
-                    caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-                    return response;
-                })
-                .catch(() => caches.match(event.request))
-        );
-    } else {
-        // Cache First pour les assets statiques (images, fonts, etc.)
-        event.respondWith(
-            caches.match(event.request).then(cached => {
-                if (cached) return cached;
-                return fetch(event.request).then(response => {
-                    if (response && response.status === 200 && response.type === 'basic') {
-                        const clone = response.clone();
-                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-                    }
-                    return response;
-                });
-            })
-        );
+    // Ne pas intercepter les requêtes cross-origin ou chrome-extension
+    if (url.origin !== self.location.origin) {
+        return;
     }
+
+    event.respondWith(
+        caches.open(CACHE_NAME).then(cache => {
+            return cache.match(event.request).then(cachedResponse => {
+                const networkFetch = fetch(event.request).then(networkResponse => {
+                    if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+                        cache.put(event.request, networkResponse.clone());
+                    }
+                    return networkResponse;
+                }).catch(() => cachedResponse);
+
+                // Si déjà en cache, servir immédiatement (0ms) ! Sinon attendre le réseau.
+                return cachedResponse || networkFetch;
+            });
+        })
+    );
 });
