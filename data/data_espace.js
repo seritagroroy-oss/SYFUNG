@@ -299,5 +299,96 @@ const LINKS_ESPACE = [
         "url": "https://radar.cloudflare.com/",
         "category": "ESPACE - OSINT & MONITORING",
         "description": "Observatoire mondial en temps réel du trafic Internet, des cyberattaques et des pannes de réseau."
+    },
+    {
+        "id": "kaspersky-cybermap",
+        "title": "Kaspersky Cyberthreat Map",
+        "url": "https://cybermap.kaspersky.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Globe 3D interactif visualisant en temps réel les cyberattaques, malwares et menaces mondiales."
+    },
+    {
+        "id": "checkpoint-threatmap",
+        "title": "Check Point ThreatMap",
+        "url": "https://threatmap.checkpoint.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte animée traquant les flux d'attaques cyber et ransomwares entre pays à la seconde."
+    },
+    {
+        "id": "netblocks",
+        "title": "NetBlocks",
+        "url": "https://netblocks.org/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Observatoire mondial mesurant les coupures d'Internet, censures télécoms et blackouts en temps de crise."
+    },
+    {
+        "id": "ioda",
+        "title": "IODA",
+        "url": "https://ioda.inetintel.cc.gatech.edu/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Surveillance en temps réel du routage mondial BGP et déconnexions massives d'infrastructures réseau."
+    },
+    {
+        "id": "copernicus-browser",
+        "title": "Copernicus EO Browser",
+        "url": "https://browser.dataspace.copernicus.eu/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Accès gratuit aux images des satellites Sentinel en haute résolution avec filtres infrarouges et thermiques."
+    },
+    {
+        "id": "google-earth-timelapse",
+        "title": "Google Earth Timelapse",
+        "url": "https://earthengine.google.com/timelapse/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Visualisation satellite dynamique de l'évolution de la planète Terre de 1984 à aujourd'hui."
+    },
+    {
+        "id": "electricity-maps",
+        "title": "Electricity Maps",
+        "url": "https://electricitymaps.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte interactive en direct de la production d'électricité, des flux d'énergie et de l'intensité carbone."
+    },
+    {
+        "id": "websdr",
+        "title": "WebSDR",
+        "url": "http://websdr.org/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Réseau de serveurs radio ondes courtes permettant d'écouter les fréquences mondiales en direct."
+    },
+    {
+        "id": "kiwisdr",
+        "title": "KiwiSDR",
+        "url": "http://kiwisdr.com/public/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Répertoire mondial de récepteurs SDR HF connectés pour l'écoute des transmissions radio planétaires."
+    },
+    {
+        "id": "blitzortung",
+        "title": "Blitzortung",
+        "url": "https://www.blitzortung.org/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Réseau mondial de détection en temps réel affichant chaque impact de foudre sur Terre à la milliseconde."
+    },
+    {
+        "id": "earth-nullschool",
+        "title": "Earth Nullschool",
+        "url": "https://earth.nullschool.net/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Globe 3D animé affichant en temps réel vents, courants marins, aurores et circulation atmosphérique."
+    },
+    {
+        "id": "travic-tracker",
+        "title": "TRAVIC Transit Tracker",
+        "url": "https://tracker.geops.ch/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Carte mondiale interactive affichant la circulation en temps réel des trains, métros, tramways et bus."
+    },
+    {
+        "id": "earthcam",
+        "title": "EarthCam",
+        "url": "https://www.earthcam.com/",
+        "category": "ESPACE - OSINT & MONITORING",
+        "description": "Réseau mondial de caméras et webcams en direct filmant capitales, monuments et ports en temps réel."
     }
 ];
