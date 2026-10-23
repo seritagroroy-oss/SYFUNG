@@ -72,7 +72,7 @@ const LINKS_ESPACE = [
     {
         "id": "gosatwatch",
         "title": "GoSatWatch",
-        "url": "https://www.gosatwatch.com/",
+        "url": "https://gosatwatch-satellite-tracking.updatestar.com/fr",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Application iOS pour planifier l'observation des satellites et suivre leurs trajectoires en direct."
     },
@@ -86,7 +86,7 @@ const LINKS_ESPACE = [
     {
         "id": "gpredict",
         "title": "GPredict",
-        "url": "https://oz9aec.net/gpredict/",
+        "url": "https://oz9aec.dk/gpredict/",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Logiciel open source de suivi de satellites et de prédiction d'orbites en temps réel."
     },
@@ -107,14 +107,14 @@ const LINKS_ESPACE = [
     {
         "id": "space-track",
         "title": "Space-Track",
-        "url": "https://www.space-track.org/",
+        "url": "https://satellitemap.space/space-track-status",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Base de données officielle de surveillance spatiale gérée par l'US Space Command."
     },
     {
         "id": "skymap",
         "title": "SkyMap",
-        "url": "https://skymap.com/",
+        "url": "https://www.skymaponline.net/",
         "category": "ESPACE - ASTRONOMIE & CIEL",
         "description": "Application pour identifier les corps célestes, étoiles et satellites dans le ciel nocturne."
     },
@@ -135,7 +135,7 @@ const LINKS_ESPACE = [
     {
         "id": "satview",
         "title": "SatView",
-        "url": "https://www.satview.org/",
+        "url": "https://www.satview.space/",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Suivi de l'ISS, des satellites météo, scientifiques et prédictions de passages."
     },
@@ -177,7 +177,7 @@ const LINKS_ESPACE = [
     {
         "id": "sattrack",
         "title": "SatTrack",
-        "url": "https://sattrack.info/",
+        "url": "https://sattrack.live/",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Suivi radio et optique avec calcul précis des effets Doppler pour les satellites en vol."
     },
@@ -205,8 +205,15 @@ const LINKS_ESPACE = [
     {
         "id": "osiris",
         "title": "OSIRIS",
-        "url": "https://github.com/0xSophronesis/OSIRIS",
+        "url": "https://osirisai.live/",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Plateforme OSINT complète intégrant le renseignement spatial, le suivi multi-satellites et la télémétrie mondiale."
+    },
+    {
+        "id": "world-monitor",
+        "title": "World Monitor",
+        "url": "https://www.worldmonitor.app/fr/",
+        "category": "ESPACE - SUIVI SATELLITES",
+        "description": "Plateforme globale d'intelligence géopolitique et de surveillance en direct (carte 3D, satellites, OSINT et télémétrie)."
     }
 ];
