@@ -452,3 +452,47 @@ const closeCookies = () => {
 cookieAccept.addEventListener('click', closeCookies);
 cookieReject.addEventListener('click', closeCookies);
 cookieSettings.addEventListener('click', closeCookies);
+
+// ==========================================================================
+// PWA Installation Feature
+// ==========================================================================
+let deferredPwaPrompt = null;
+const installPwaBtn = document.getElementById('install-pwa-btn');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPwaPrompt = e;
+    if (installPwaBtn) {
+        installPwaBtn.style.display = 'inline-flex';
+    }
+});
+
+// Masquer automatiquement si déjà en mode standalone
+if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+    if (installPwaBtn) installPwaBtn.style.display = 'none';
+}
+
+if (installPwaBtn) {
+    installPwaBtn.addEventListener('click', async () => {
+        if (deferredPwaPrompt) {
+            deferredPwaPrompt.prompt();
+            const { outcome } = await deferredPwaPrompt.userChoice;
+            if (outcome === 'accepted') {
+                deferredPwaPrompt = null;
+                installPwaBtn.style.display = 'none';
+            }
+        } else {
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS) {
+                alert("Pour installer SyFung sur votre iPhone/iPad :\n1. Appuyez sur le bouton Partager dans Safari (icône carrée avec flèche vers le haut).\n2. Faites défiler et appuyez sur 'Sur l'écran d'accueil'.");
+            } else {
+                alert("Pour installer SyFung :\n- Cliquez sur l'icône d'installation dans la barre d'adresse de votre navigateur (Chrome/Edge).\n- Ou dans le menu du navigateur (⋮) > 'Installer l'application SyFung'.");
+            }
+        }
+    });
+}
+
+window.addEventListener('appinstalled', () => {
+    deferredPwaPrompt = null;
+    if (installPwaBtn) installPwaBtn.style.display = 'none';
+});

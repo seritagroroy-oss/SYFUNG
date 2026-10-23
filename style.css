@@ -724,8 +724,8 @@ input, select, textarea { font-family: inherit; }
     align-items: center;
 }
 
-/* Animated Support Button & About Button */
-.btn-support, .btn-about {
+/* Animated Support Button, About Button & Install PWA Button */
+.btn-support, .btn-about, .btn-install {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -736,6 +736,21 @@ input, select, textarea { font-family: inherit; }
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-install {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: white;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.35);
+}
+
+.btn-install:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+.btn-install i {
+    font-size: 1.1rem;
 }
 
 .btn-support {
@@ -1354,14 +1369,14 @@ mark.search-highlight {
         gap: 0.4rem;
         flex-shrink: 0;
     }
-    .btn-about, .btn-support {
+    .btn-about, .btn-support, .btn-install {
         padding: 0.35rem 0.55rem;
         border-radius: 0.5rem;
         font-size: 0.75rem;
         white-space: nowrap;
     }
-    .btn-about span, .btn-support span { display: none; }
-    .btn-about i, .btn-support i { font-size: 1.1rem; margin: 0; }
+    .btn-about span, .btn-support span, .btn-install span { display: none; }
+    .btn-about i, .btn-support i, .btn-install i { font-size: 1.1rem; margin: 0; }
 
     /* Ligne 2 : barre de recherche pleine largeur */
     .search-container { max-width: 100%; margin: 0; }
