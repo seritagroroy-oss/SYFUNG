@@ -206,14 +206,14 @@ const LINKS_ESPACE = [
         "id": "osiris",
         "title": "OSIRIS",
         "url": "https://osirisai.live/",
-        "category": "ESPACE - SUIVI SATELLITES",
+        "category": "ESPACE - OSINT & MONITORING",
         "description": "Plateforme OSINT complète intégrant le renseignement spatial, le suivi multi-satellites et la télémétrie mondiale."
     },
     {
         "id": "world-monitor",
         "title": "World Monitor",
         "url": "https://www.worldmonitor.app/fr/",
-        "category": "ESPACE - SUIVI SATELLITES",
+        "category": "ESPACE - OSINT & MONITORING",
         "description": "Plateforme globale d'intelligence géopolitique et de surveillance en direct (carte 3D, satellites, OSINT et télémétrie)."
     }
 ];
