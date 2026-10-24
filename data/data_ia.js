@@ -2,9 +2,16 @@ const LINKS_IA = [
     {
         "id": "ashna",
         "title": "Ashna AI",
+        "url": "https://www.ashna.ai/",
+        "category": "IA - RECHERCHE",
+        "description": "Plateforme no-code pour créer et déployer des agents IA personnalisés."
+    },
+    {
+        "id": "ashna-models",
+        "title": "Ashna AI Models",
         "url": "https://app.ashna.ai/models",
         "category": "IA - RECHERCHE",
-        "description": "Hub et catalogue de modèles IA pour explorer, tester et déployer les meilleurs LLMs."
+        "description": "Hub et catalogue de modèles IA pour explorer, tester et comparer les meilleurs LLMs."
     },
     {
         "id": "chatgpt",
