@@ -338,6 +338,7 @@ function setupEventListeners() {
                 'EBOOK': 'Livres & Ebooks',
                 'FILMS': 'Films & Animation',
                 'CYBERSÉCURITÉ': 'Cybersécurité',
+                'CYBERSÉCURITÉ - OSINT': 'Cybersécurité — OSINT',
                 'DIVERS': 'Outils Divers',
                 'WINDOWS': 'Outils & Logiciels Windows',
                 'API': 'API & Tests',

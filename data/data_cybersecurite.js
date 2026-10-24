@@ -1,11 +1,27 @@
 const LINKS_CYBERSECURITE = [
     {
+        "id": "maxintel",
+        "title": "Max Intel",
+        "url": "https://maxintel.org/",
+        "category": "CYBERSÉCURITÉ - OSINT",
+        "description": "Suite complète d'outils OSINT gratuits dans le navigateur : recherche de personnes, emails, téléphones, domaines et métadonnées.",
+        "icon": "https://maxintel.org/favicon.svg"
+    },
+    {
         "id": "osint4all",
         "title": "OSINT4ALL",
         "url": "https://start.me/p/L1rEYQ/osint4all",
-        "category": "CYBERSÉCURITÉ",
+        "category": "CYBERSÉCURITÉ - OSINT",
         "description": "Boîte à outils OSINT complète pour la recherche et l'investigation en ligne.",
         "icon": "https://start.me/favicon.ico"
+    },
+    {
+        "id": "osintframework",
+        "title": "OSINT Framework",
+        "url": "https://osintframework.com/",
+        "category": "CYBERSÉCURITÉ - OSINT",
+        "description": "Arbre visuel de tous les outils OSINT classés par catégorie.",
+        "icon": "https://osintframework.com/favicon.ico"
     },
     {
         "id": "fingerprint",
@@ -14,14 +30,6 @@ const LINKS_CYBERSECURITE = [
         "category": "CYBERSÉCURITÉ",
         "description": "Analyse votre empreinte numérique (navigateur, IP, OS) pour tester votre anonymat.",
         "icon": "https://fingerprint.to/favicon.ico"
-    },
-    {
-        "id": "osintframework",
-        "title": "OSINT Framework",
-        "url": "https://osintframework.com/",
-        "category": "CYBERSÉCURITÉ",
-        "description": "Arbre visuel de tous les outils OSINT classés par catégorie.",
-        "icon": "https://osintframework.com/favicon.ico"
     },
     {
         "id": "fakenamegenerator",
@@ -192,7 +200,7 @@ const LINKS_CYBERSECURITE = [
         "id": "pimeyes",
         "title": "PimEyes",
         "url": "https://pimeyes.com/",
-        "category": "CYBERSÉCURITÉ - OUTILS",
+        "category": "CYBERSÉCURITÉ - OSINT",
         "description": "Moteur de recherche par reconnaissance faciale (OSINT).",
         "date": "2026-10-01"
     },
