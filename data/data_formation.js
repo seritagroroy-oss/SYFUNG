@@ -28,6 +28,14 @@ const LINKS_FORMATION = [
         "description": "Le plus grand moteur de recherche de cours en ligne, formations gratuites et MOOCs universitaires certifiants."
     },
     {
+        "id": "fluvi",
+        "title": "Fluvi",
+        "url": "https://fluvistudy.com/",
+        "category": "FORMATION - DEV",
+        "description": "Transforme vos cours (PDF, audio, vidéo, texte) en quiz, flashcards, fiches et podcasts avec répétition espacée.",
+        "icon": "https://fluvistudy.com/icon.png"
+    },
+    {
         "id": "mindluster",
         "title": "Mindluster",
         "url": "https://www.mindluster.com/",
