@@ -189,6 +189,14 @@ const LINKS_CYBERSECURITE = [
         "date": "2026-08-01"
     },
     {
+        "id": "justdeleteme",
+        "title": "JustDeleteMe",
+        "url": "https://justdeleteme.xyz/fr",
+        "category": "CYBERSÉCURITÉ - OUTILS",
+        "description": "Répertoire de liens directs et guides classés par difficulté pour supprimer définitivement vos comptes sur des centaines de services web.",
+        "icon": "https://justdeleteme.xyz/favicon.ico"
+    },
+    {
         "id": "cyberchef",
         "title": "CyberChef",
         "url": "https://gchq.github.io/CyberChef/",
