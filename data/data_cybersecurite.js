@@ -8,6 +8,14 @@ const LINKS_CYBERSECURITE = [
         "icon": "https://maxintel.org/favicon.svg"
     },
     {
+        "id": "opsis",
+        "title": "Opsis",
+        "url": "https://useopsis.com/",
+        "category": "CYBERSÉCURITÉ - OSINT",
+        "description": "Plateforme d'investigation OSINT avec +1 000 modules pour rechercher emails, pseudos et domaines afin d'identifier comptes et profils liés.",
+        "icon": "https://useopsis.com/icon.svg"
+    },
+    {
         "id": "osint4all",
         "title": "OSINT4ALL",
         "url": "https://start.me/p/L1rEYQ/osint4all",
