@@ -1033,6 +1033,70 @@ input, select, textarea { font-family: inherit; }
     color: var(--text-primary);
 }
 
+.creator-projects {
+    margin: 1.25rem 0;
+    padding: 1rem 1.25rem;
+    background: var(--bg-base);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+}
+
+.creator-projects-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.creator-projects-title i {
+    color: var(--primary-color);
+}
+
+.creator-projects-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding: 0;
+    margin: 0;
+}
+
+.creator-projects-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.creator-projects-list .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.creator-projects-list .project-link:hover {
+    color: var(--primary-hover);
+    transform: translateX(3px);
+}
+
+.creator-projects-list .project-link .external-icon {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.creator-projects-list li span {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
 /* ==========================================================================
    Cookie Consent
    ========================================================================== */
