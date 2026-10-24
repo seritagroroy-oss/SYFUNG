@@ -1,12 +1,5 @@
 const LINKS_OFFICES = [
     {
-        "id": "massgrave",
-        "title": "MassGrave",
-        "url": "https://massgrave.dev/",
-        "category": "OFFICES",
-        "description": "Activation Windows & Office (Microsoft Activation Scripts)."
-    },
-    {
         "id": "googledocs",
         "title": "Google Docs",
         "url": "https://docs.google.com/",

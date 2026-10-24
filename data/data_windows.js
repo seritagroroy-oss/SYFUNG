@@ -8,6 +8,14 @@ const LINKS_WINDOWS = [
         "icon": "https://royal-script-windows.vercel.app/favicon.ico"
     },
     {
+        "id": "massgrave",
+        "title": "MassGrave (MAS)",
+        "url": "https://massgrave.dev/",
+        "category": "WINDOWS - UTILITAIRES",
+        "description": "Scripts d'activation open-source officiels pour Windows et Office (Microsoft Activation Scripts).",
+        "icon": "https://massgrave.dev/favicon.ico"
+    },
+    {
         "id": "malekal",
         "title": "Malekal",
         "url": "https://www.malekal.com/",
