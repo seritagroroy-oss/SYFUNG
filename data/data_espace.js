@@ -140,13 +140,6 @@ const LINKS_ESPACE = [
         "description": "Suivi de l'ISS, des satellites météo, scientifiques et prédictions de passages."
     },
     {
-        "id": "orbitron-mobile",
-        "title": "Orbitron Mobile",
-        "url": "http://www.stoff.pl/",
-        "category": "ESPACE - SUIVI SATELLITES",
-        "description": "Outil mobile de calcul d'éphémérides et de suivi orbital de satellites."
-    },
-    {
         "id": "in-the-sky",
         "title": "In-The-Sky.org",
         "url": "https://in-the-sky.org/",
@@ -180,20 +173,6 @@ const LINKS_ESPACE = [
         "url": "https://sattrack.live/",
         "category": "ESPACE - SUIVI SATELLITES",
         "description": "Suivi radio et optique avec calcul précis des effets Doppler pour les satellites en vol."
-    },
-    {
-        "id": "orbitron-pro",
-        "title": "Orbitron Pro",
-        "url": "http://www.stoff.pl/",
-        "category": "ESPACE - SUIVI SATELLITES",
-        "description": "Version avancée d'Orbitron pour l'analyse orbitale et le pilotage d'antennes radioamateurs."
-    },
-    {
-        "id": "skysafari-pro",
-        "title": "SkySafari Pro",
-        "url": "https://skysafariastronomy.com/",
-        "category": "ESPACE - ASTRONOMIE & CIEL",
-        "description": "Version premium avec base de données astronomique étendue et suivi précis des satellites."
     },
     {
         "id": "satellites-live",

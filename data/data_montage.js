@@ -665,35 +665,11 @@ const LINKS_MONTAGE = [
         "description": "Excellent outil pour l'optimisation de vidéos YouTube."
     },
     {
-        "id": "davinci",
-        "title": "DaVinci Resolve",
-        "url": "https://www.blackmagicdesign.com/fr/products/davinciresolve/",
-        "category": "MONTAGE - PRO & PREMIUM",
-        "description": "Suite de montage vidéo professionnelle (version gratuite très complète).",
-        "date": "2026-08-01"
-    },
-    {
-        "id": "adobepremiere",
-        "title": "Adobe Premiere Pro",
-        "url": "https://www.adobe.com/fr/products/premiere.html",
-        "category": "MONTAGE - PRO & PREMIUM",
-        "description": "Le standard professionnel du montage vidéo par Adobe.",
-        "date": "2026-08-01"
-    },
-    {
         "id": "adobeexpress",
         "title": "Adobe Express",
         "url": "https://www.adobe.com/fr/express/",
         "category": "MONTAGE - IA & LIGNE",
         "description": "Création rapide de vidéos, posts et visuels en ligne.",
-        "date": "2026-08-01"
-    },
-    {
-        "id": "clippchamp",
-        "title": "Clipchamp",
-        "url": "https://clipchamp.com/fr/",
-        "category": "MONTAGE - IA & LIGNE",
-        "description": "Éditeur vidéo en ligne gratuit intégré à Windows 11.",
         "date": "2026-08-01"
     }
 ];
