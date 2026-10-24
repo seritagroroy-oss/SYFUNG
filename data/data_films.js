@@ -14,6 +14,13 @@ const LINKS_FILMS = [
         "description": "Plateforme de streaming de films et séries."
     },
     {
+        "id": "chillenzie",
+        "title": "Chillenzie",
+        "url": "https://chillenzie.com/",
+        "category": "FILMS - STREAMING",
+        "description": "Plateforme gratuite et moderne pour regarder films et séries TV en streaming."
+    },
+    {
         "id": "primevideo",
         "title": "Prime Video",
         "url": "https://www.primevideo.com/",
