@@ -16,6 +16,14 @@ const LINKS_CYBERSECURITE = [
         "icon": "https://useopsis.com/icon.svg"
     },
     {
+        "id": "osintsearch",
+        "title": "OSINTsearch",
+        "url": "https://osintsearch.org/",
+        "category": "CYBERSÉCURITÉ - OSINT",
+        "description": "Moteur de recherche OSINT en direct scannant plus de 820 plateformes par pseudonyme, email ou numéro de téléphone.",
+        "icon": "https://osintsearch.org/favicon.ico"
+    },
+    {
         "id": "osint4all",
         "title": "OSINT4ALL",
         "url": "https://start.me/p/L1rEYQ/osint4all",
