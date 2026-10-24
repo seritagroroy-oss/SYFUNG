@@ -21,6 +21,13 @@ const LINKS_FORMATION = [
         "description": "Formations certifiantes avec les meilleures universités."
     },
     {
+        "id": "classcentral",
+        "title": "Class Central",
+        "url": "https://www.classcentral.com/",
+        "category": "FORMATION - DEV",
+        "description": "Le plus grand moteur de recherche de cours en ligne, formations gratuites et MOOCs universitaires certifiants."
+    },
+    {
         "id": "mindluster",
         "title": "Mindluster",
         "url": "https://www.mindluster.com/",
