@@ -1,10 +1,14 @@
-const CACHE_NAME = 'syfung-cache-v6';
+const CACHE_NAME = 'syfung-cache-v7';
 
 // Fichiers statiques qui changent rarement
 const STATIC_ASSETS = [
     './favicon.svg',
     './author.jpg',
-    './poster.jpg'
+    './poster.jpg',
+    './icons/icon-192.png',
+    './icons/icon-512.png',
+    './icons/icon-maskable-512.png',
+    './manifest.json'
 ];
 
 // Installation : on met en cache les assets statiques et on active immédiatement

@@ -1,17 +1,44 @@
 {
-  "name": "SyFung Annuaire",
+  "name": "SyFung — Annuaire des Meilleurs Outils Web",
   "short_name": "SyFung",
-  "description": "L'annuaire ultime des outils web (IA, Dev, Design, Formations, Cybersécurité, etc.)",
+  "description": "L'annuaire ultime des meilleurs outils et sites du web : IA, Développement, Design, Cybersécurité, Espace & Satellites.",
+  "id": "syfung-pwa",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#1e293b",
+  "orientation": "any",
+  "background_color": "#0f172a",
   "theme_color": "#6366f1",
+  "lang": "fr",
+  "categories": [
+    "utilities",
+    "productivity",
+    "education"
+  ],
   "icons": [
     {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "favicon.svg",
-      "sizes": "192x192 512x512",
+      "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
