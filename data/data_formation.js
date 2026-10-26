@@ -213,5 +213,165 @@ const LINKS_FORMATION = [
         "category": "FORMATION",
         "description": "Apprenez gratuitement du vocabulaire et la prononciation dans plus de 45 langues différentes.",
         "date": "2026-10-01"
+    },
+    {
+        "id": "unicefagora",
+        "title": "UNICEF – Agora",
+        "url": "https://agora.unicef.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Plateforme de formation gratuite de l'UNICEF : protection de l'enfance, éducation, inclusion et leadership.",
+        "icon": "https://agora.unicef.org/favicon.ico"
+    },
+    {
+        "id": "openwho",
+        "title": "OMS – OpenWHO",
+        "url": "https://openwho.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Plateforme interactive de l'OMS : santé publique, épidémies et gestion des urgences sanitaires mondiales.",
+        "icon": "https://openwho.org/favicon.ico"
+    },
+    {
+        "id": "faoelearning",
+        "title": "FAO eLearning Academy",
+        "url": "https://elearning.fao.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Cours gratuits certifiants de la FAO : agriculture durable, sécurité alimentaire, nutrition et climat.",
+        "icon": "https://elearning.fao.org/favicon.ico"
+    },
+    {
+        "id": "worldbankolc",
+        "title": "Banque mondiale – Open Learning Campus",
+        "url": "https://olc.worldbank.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Formations et MOOCs de la Banque mondiale : développement économique, gouvernance, finances et data.",
+        "icon": "https://olc.worldbank.org/favicon.ico"
+    },
+    {
+        "id": "unsdglearn",
+        "title": "Nations Unies – UN SDG:Learn",
+        "url": "https://unsdglearn.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Passerelle d'apprentissage de l'ONU dédiée aux 17 Objectifs de Développement Durable (ODD).",
+        "icon": "https://unsdglearn.org/favicon.ico"
+    },
+    {
+        "id": "unitar",
+        "title": "UNITAR – Free & Open Courses",
+        "url": "https://unitar.org/free-and-open-courses",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Cours libres de l'Institut des Nations Unies : climat, droits humains, diplomatie et développement.",
+        "icon": "https://unitar.org/favicon.ico"
+    },
+    {
+        "id": "unccelearn",
+        "title": "UN CC:eLearn",
+        "url": "https://unccelearn.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Plateforme mondiale de formation de l'ONU sur le changement climatique, la résilience et l'adaptation.",
+        "icon": "https://unccelearn.org/favicon.ico"
+    },
+    {
+        "id": "unescoopenlearning",
+        "title": "UNESCO – Open Learning",
+        "url": "https://openlearning.unesco.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Cours en ligne et ressources éducatives libres de l'UNESCO : éducation, inclusion et culture.",
+        "icon": "https://openlearning.unesco.org/favicon.ico"
+    },
+    {
+        "id": "iomecampus",
+        "title": "OIM – eCampus",
+        "url": "https://ecampus.iom.int/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Formations de l'Organisation Internationale pour les Migrations : gestion des flux migratoires et droits.",
+        "icon": "https://ecampus.iom.int/favicon.ico"
+    },
+    {
+        "id": "unwomentraining",
+        "title": "ONU Femmes – Training Centre",
+        "url": "https://trainingcentre.unwomen.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Centre de formation de l'ONU Femmes : égalité des genres, leadership féminin et droits humains.",
+        "icon": "https://trainingcentre.unwomen.org/favicon.ico"
+    },
+    {
+        "id": "ilolearning",
+        "title": "OIT – ILO Learning",
+        "url": "https://www.ilo.org/learning/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Formations de l'Organisation Internationale du Travail : travail décent, normes et inclusion sociale.",
+        "icon": "https://www.ilo.org/favicon.ico"
+    },
+    {
+        "id": "unhcrlearning",
+        "title": "HCR / UNHCR – Learning Platform",
+        "url": "https://www.unhcr.org/learning-portal.html",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Portail de formation du HCR sur la protection internationale des réfugiés et demandeurs d'asile.",
+        "icon": "https://www.unhcr.org/favicon.ico"
+    },
+    {
+        "id": "unodcelearning",
+        "title": "UNODC – eLearning",
+        "url": "https://elearningunodc.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Modules de formation de l'Office de l'ONU contre la drogue et le crime : justice pénale et sécurité.",
+        "icon": "https://elearningunodc.org/favicon.ico"
+    },
+    {
+        "id": "undpsdgfinance",
+        "title": "PNUD – SDG Finance Academy",
+        "url": "https://www.unsdglearn.org/courses/sdg-finance-academy-e-learning-programme/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Programme de formation du PNUD : finance durable, investissement à impact et financement des ODD.",
+        "icon": "https://www.unsdglearn.org/favicon.ico"
+    },
+    {
+        "id": "uneplearning",
+        "title": "PNUE (UNEP) – Environmental Learning",
+        "url": "https://www.unep.org/resources",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Formations et ressources environnementales de l'ONU : biodiversité, durabilité et transition écologique.",
+        "icon": "https://www.unep.org/favicon.ico"
+    },
+    {
+        "id": "ifrclearning",
+        "title": "Croix-Rouge – IFRC Learning Platform",
+        "url": "https://www.ifrc.org/get-involved/learn-us",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Plateforme de formation de la Croix-Rouge et Croissant-Rouge : secourisme, action humanitaire et crises.",
+        "icon": "https://www.ifrc.org/favicon.ico"
+    },
+    {
+        "id": "msflearning",
+        "title": "Médecins Sans Frontières – Learning & Resources",
+        "url": "https://www.msf.org/learning-and-development",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Ressources et modules d'apprentissage de MSF : médecine d'urgence, logistique et santé humanitaire.",
+        "icon": "https://www.msf.org/favicon.ico"
+    },
+    {
+        "id": "amnestyacademy",
+        "title": "Amnesty International – Human Rights Education",
+        "url": "https://www.amnesty.org/en/what-we-do/education/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Académie des droits humains d'Amnesty : cours gratuits sur les libertés fondamentales et le plaidoyer.",
+        "icon": "https://www.amnesty.org/favicon.ico"
+    },
+    {
+        "id": "oxfameducation",
+        "title": "Oxfam – Oxfam Education",
+        "url": "https://www.oxfam.org.uk/education/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Ressources et cours d'Oxfam pour l'engagement citoyen, la lutte contre les inégalités et la justice sociale.",
+        "icon": "https://www.oxfam.org.uk/favicon.ico"
+    },
+    {
+        "id": "unvolunteers",
+        "title": "UN Volunteers – Learning Platform",
+        "url": "https://www.unv.org/",
+        "category": "FORMATION - ORGANISATIONS",
+        "description": "Portail des Volontaires des Nations Unies : volontariat international, leadership citoyen et engagement.",
+        "icon": "https://www.unv.org/favicon.ico"
     }
 ];
