@@ -1215,5 +1215,157 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Générateur vidéo publicitaire e-commerce automatisé transformant les liens produits en spots vidéo.",
         "icon": "https://boolv.tech/favicon.ico"
+    },
+    {
+        "id": "autocap",
+        "title": "AutoCap",
+        "url": "https://autocap.app/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Ajout automatique de texte animé synchronisé à la voix.",
+        "icon": "https://autocap.app/favicon.ico"
+    },
+    {
+        "id": "zeemoai",
+        "title": "Zeemo AI",
+        "url": "https://zeemo.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Sous-titrage automatique rapide dans plus de 90 langues.",
+        "icon": "https://zeemo.ai/favicon.ico"
+    },
+    {
+        "id": "sonix",
+        "title": "Sonix",
+        "url": "https://sonix.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Transcription audio et vidéo ultra-précise par IA.",
+        "icon": "https://sonix.ai/favicon.ico"
+    },
+    {
+        "id": "otterai",
+        "title": "Otter.ai",
+        "url": "https://otter.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Transcription et résumé automatique de réunions vidéo.",
+        "icon": "https://otter.ai/favicon.ico"
+    },
+    {
+        "id": "riversidefm",
+        "title": "Riverside.fm",
+        "url": "https://riverside.fm/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Enregistrement studio 4K à distance avec transcription intégrée.",
+        "icon": "https://riverside.fm/favicon.ico"
+    },
+    {
+        "id": "trint",
+        "title": "Trint",
+        "url": "https://trint.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Outil collaboratif de transcription vidéo pour journalistes.",
+        "icon": "https://trint.com/favicon.ico"
+    },
+    {
+        "id": "vrew",
+        "title": "Vrew",
+        "url": "https://vrew.voyagerx.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Éditeur vidéo basé sur la parole avec découpage par sous-titres.",
+        "icon": "https://vrew.voyagerx.com/favicon.ico"
+    },
+    {
+        "id": "flawlessai",
+        "title": "Flawless AI",
+        "url": "https://www.flawlessai.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Technologie hollywoodienne adaptant les mouvements des lèvres des acteurs.",
+        "icon": "https://flawlessai.com/favicon.ico"
+    },
+    {
+        "id": "speechifyvideo",
+        "title": "Speechify Video",
+        "url": "https://speechify.com/voiceover/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio de voix off IA naturelles synchronisées sur vidéo.",
+        "icon": "https://speechify.com/favicon.ico"
+    },
+    {
+        "id": "papercup",
+        "title": "Papercup",
+        "url": "https://www.papercup.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Doublage IA expressif pour médias et chaînes télévisées.",
+        "icon": "https://papercup.com/favicon.ico"
+    },
+    {
+        "id": "maestraai",
+        "title": "Maestra AI",
+        "url": "https://maestra.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Doublage vocal automatique et voix off multilingues.",
+        "icon": "https://maestra.ai/favicon.ico"
+    },
+    {
+        "id": "tensorartvideo",
+        "title": "Tensor Art Video",
+        "url": "https://tensor.art/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Modèles communautaires d'upscale et amélioration vidéo.",
+        "icon": "https://tensor.art/favicon.ico"
+    },
+    {
+        "id": "upscalemedia",
+        "title": "Upscale.media",
+        "url": "https://www.upscale.media/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Solution d'upscaling de visuels et séquences en ligne.",
+        "icon": "https://upscale.media/favicon.ico"
+    },
+    {
+        "id": "vanceaivideo",
+        "title": "VanceAI Video",
+        "url": "https://vanceai.com/video-enhancer/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Défloutage et upscaling automatique par réseaux neuronaux.",
+        "icon": "https://vanceai.com/favicon.ico"
+    },
+    {
+        "id": "facemagic",
+        "title": "FaceMagic",
+        "url": "https://www.facemagic.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Métamorphose et échange de visage sur vidéos et scènes cultes.",
+        "icon": "https://facemagic.ai/favicon.ico"
+    },
+    {
+        "id": "reface",
+        "title": "Reface",
+        "url": "https://reface.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Application pionnière de substitution de visage sur vidéos courtes.",
+        "icon": "https://reface.ai/favicon.ico"
+    },
+    {
+        "id": "deepfakesweb",
+        "title": "Deepfakes Web",
+        "url": "https://deepfakesweb.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme cloud d'apprentissage pour swap vidéo photoréaliste.",
+        "icon": "https://deepfakesweb.com/favicon.ico"
+    },
+    {
+        "id": "remakerai",
+        "title": "Remaker AI",
+        "url": "https://remaker.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Outil polyvalent d'échange de visages sur vidéos et photos.",
+        "icon": "https://remaker.ai/favicon.ico"
+    },
+    {
+        "id": "shuffll",
+        "title": "Shuffll",
+        "url": "https://shuffll.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Production vidéo d'entreprise automatisée (script, voix et visuels).",
+        "icon": "https://shuffll.com/favicon.ico"
     }
 ];
