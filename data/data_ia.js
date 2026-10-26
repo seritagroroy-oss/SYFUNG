@@ -246,5 +246,12 @@ const LINKS_IA = [
         "category": "IA - AUDIO VIDEO",
         "description": "Génération de musique expérimentale par Google IA.",
         "date": "2026-08-01"
+    },
+    {
+        "id": "veoaifree",
+        "title": "Veo AI Free",
+        "url": "https://veoaifree.com/",
+        "category": "IA - AUDIO VIDEO",
+        "description": "Générateur gratuit de vidéos par IA basé sur Google VEO, sans inscription ni limite."
     }
 ];
