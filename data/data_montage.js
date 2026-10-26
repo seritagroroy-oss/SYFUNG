@@ -1023,5 +1023,69 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Génération d'animations 3D text-to-animation par IA pour avatars et moteurs de jeu.",
         "icon": "https://www.krikey.ai/favicon.ico"
+    },
+    {
+        "id": "tavus",
+        "title": "Tavus",
+        "url": "https://tavus.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme pionnière de répliques humaines et vidéos interactives en temps réel par IA.",
+        "icon": "https://tavus.io/favicon.ico"
+    },
+    {
+        "id": "bhuman",
+        "title": "BHuman",
+        "url": "https://www.bhuman.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération massive de vidéos personnalisées par IA avec prononciation individuelle des noms des clients.",
+        "icon": "https://www.bhuman.ai/favicon.ico"
+    },
+    {
+        "id": "lumen5",
+        "title": "Lumen5",
+        "url": "https://lumen5.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Transformation automatique d'articles de blog et textes en vidéos professionnelles pour réseaux sociaux.",
+        "icon": "https://lumen5.com/favicon.ico"
+    },
+    {
+        "id": "steveai",
+        "title": "Steve AI",
+        "url": "https://www.steve.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Création complète de vidéos animées 2D et prises de vues réelles à partir d'un script ou prompt.",
+        "icon": "https://www.steve.ai/favicon.ico"
+    },
+    {
+        "id": "rawshorts",
+        "title": "Raw Shorts",
+        "url": "https://www.rawshorts.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Créateur IA de vidéos explicatives animées sur tableau blanc (whiteboard) à partir de texte.",
+        "icon": "https://www.rawshorts.com/favicon.ico"
+    },
+    {
+        "id": "plask",
+        "title": "Plask AI",
+        "url": "https://plask.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Capture de mouvement (MoCap) par webcam pour animer des personnages 3D sans capteurs.",
+        "icon": "https://plask.ai/favicon.ico"
+    },
+    {
+        "id": "choppity",
+        "title": "Choppity",
+        "url": "https://choppity.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Éditeur vidéo IA pour podcasts : découpage automatique, sous-titres animés et cadrage multi-caméras.",
+        "icon": "https://choppity.com/favicon.ico"
+    },
+    {
+        "id": "capte",
+        "title": "Capte",
+        "url": "https://capte.co/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Outil français pour générer des sous-titres dynamiques et animés sur les vidéos courtes en 1 clic.",
+        "icon": "https://capte.co/favicon.ico"
     }
 ];
