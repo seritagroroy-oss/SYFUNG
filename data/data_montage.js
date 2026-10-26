@@ -719,5 +719,53 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Génération d'avatars humains et personnages virtuels parlants avec synchronisation labiale expressive.",
         "icon": "https://www.hedra.com/favicon.ico"
+    },
+    {
+        "id": "pixverse",
+        "title": "PixVerse",
+        "url": "https://pixverse.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur vidéo IA 4K puissant avec contrôle des mouvements de caméra et filtres dynamiques.",
+        "icon": "https://pixverse.ai/favicon.ico"
+    },
+    {
+        "id": "ltxstudio",
+        "title": "LTX Studio",
+        "url": "https://ltx.studio/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio cinématique complet par IA pour concevoir des courts-métrages avec cohérence narrative et plans multiples.",
+        "icon": "https://ltx.studio/favicon.ico"
+    },
+    {
+        "id": "did",
+        "title": "D-ID",
+        "url": "https://www.d-id.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Animation de photos et portraits en vidéos parlantes réalistes avec synchronisation labiale par IA.",
+        "icon": "https://www.d-id.com/favicon.ico"
+    },
+    {
+        "id": "klap",
+        "title": "Klap AI",
+        "url": "https://klap.app/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Extraction automatique de vidéos courtes virales (Shorts, Reels, TikTok) avec sous-titres animés et cadrage IA.",
+        "icon": "https://klap.app/favicon.ico"
+    },
+    {
+        "id": "morphstudio",
+        "title": "Morph Studio",
+        "url": "https://www.morphstudio.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme de création de films IA sur tableau blanc infini (canvas) et storyboard interactif.",
+        "icon": "https://www.morphstudio.com/favicon.ico"
+    },
+    {
+        "id": "colossyan",
+        "title": "Colossyan",
+        "url": "https://www.colossyan.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Création de vidéos d'entreprise et de formation avec acteurs virtuels IA multilingues.",
+        "icon": "https://www.colossyan.com/favicon.ico"
     }
 ];
