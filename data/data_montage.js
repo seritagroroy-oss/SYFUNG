@@ -671,5 +671,53 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Création rapide de vidéos, posts et visuels en ligne.",
         "date": "2026-08-01"
+    },
+    {
+        "id": "lumadreammachine",
+        "title": "Luma Dream Machine",
+        "url": "https://lumalabs.ai/dream-machine",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Modèle vidéo IA cinématique ultra-réaliste avec physique naturelle et mouvements de caméra fluides.",
+        "icon": "https://lumalabs.ai/favicon.ico"
+    },
+    {
+        "id": "hailuoai",
+        "title": "Hailuo AI (MiniMax)",
+        "url": "https://hailuoai.video/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur vidéo IA à la pointe du photoréalisme pour les visages, expressions et scènes dynamiques.",
+        "icon": "https://hailuoai.video/favicon.ico"
+    },
+    {
+        "id": "vidu",
+        "title": "Vidu AI",
+        "url": "https://www.vidu.studio/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Moteur ultra-rapide de génération vidéo IA 1080p avec simulation physique d'effets dynamiques.",
+        "icon": "https://www.vidu.studio/favicon.ico"
+    },
+    {
+        "id": "haiper",
+        "title": "Haiper AI",
+        "url": "https://haiper.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Outil de création et animation de vidéos courtes par IA, rapide et accessible pour les réseaux sociaux.",
+        "icon": "https://haiper.ai/favicon.ico"
+    },
+    {
+        "id": "viggle",
+        "title": "Viggle AI",
+        "url": "https://viggle.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Animation de personnages par IA et remplacement corporel guidé par le mouvement d'une vidéo.",
+        "icon": "https://viggle.ai/favicon.ico"
+    },
+    {
+        "id": "hedra",
+        "title": "Hedra",
+        "url": "https://www.hedra.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération d'avatars humains et personnages virtuels parlants avec synchronisation labiale expressive.",
+        "icon": "https://www.hedra.com/favicon.ico"
     }
 ];
