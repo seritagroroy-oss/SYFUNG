@@ -1151,5 +1151,69 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Détourage vidéo automatique sans fond vert, suppression d'objets indésirables et retouche IA.",
         "icon": "https://www.cutout.pro/favicon.ico"
+    },
+    {
+        "id": "akool",
+        "title": "Akool",
+        "url": "https://akool.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio IA haut de gamme spécialisé dans le Face Swap vidéo 4K, les avatars et la création publicitaire.",
+        "icon": "https://akool.com/favicon.ico"
+    },
+    {
+        "id": "deepcake",
+        "title": "Deepcake",
+        "url": "https://deepcake.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Clonage d'acteurs réels et doublage vidéo studio par IA pour la production cinématographique et publicitaire.",
+        "icon": "https://deepcake.io/favicon.ico"
+    },
+    {
+        "id": "artflow",
+        "title": "Artflow AI",
+        "url": "https://artflow.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio de création de dessins animés par IA avec personnages récurrents et génération d'histoires.",
+        "icon": "https://artflow.ai/favicon.ico"
+    },
+    {
+        "id": "kaedim",
+        "title": "Kaedim 3D",
+        "url": "https://www.kaedim3d.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération de modèles 3D prêts à l'animation à partir de simples images 2D par IA.",
+        "icon": "https://www.kaedim3d.com/favicon.ico"
+    },
+    {
+        "id": "wisecut",
+        "title": "Wisecut",
+        "url": "https://www.wisecut.video/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Montage automatique par IA : suppression des silences, auto-ducking audio et sous-titrage automatique.",
+        "icon": "https://www.wisecut.video/favicon.ico"
+    },
+    {
+        "id": "neurallove",
+        "title": "Neural.love",
+        "url": "https://neural.love/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Restauration vidéo IA : upscaling 4K, conversion 60 FPS, colorisation et génération vidéo.",
+        "icon": "https://neural.love/favicon.ico"
+    },
+    {
+        "id": "dubverse",
+        "title": "Dubverse.ai",
+        "url": "https://dubverse.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme de doublage vidéo IA multilingue avec synchronisation labiale et voix expressives.",
+        "icon": "https://dubverse.ai/favicon.ico"
+    },
+    {
+        "id": "boolvideo",
+        "title": "Boolvideo",
+        "url": "https://boolv.tech/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur vidéo publicitaire e-commerce automatisé transformant les liens produits en spots vidéo.",
+        "icon": "https://boolv.tech/favicon.ico"
     }
 ];
