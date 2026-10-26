@@ -1087,5 +1087,69 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Outil français pour générer des sous-titres dynamiques et animés sur les vidéos courtes en 1 clic.",
         "icon": "https://capte.co/favicon.ico"
+    },
+    {
+        "id": "vidnoz",
+        "title": "Vidnoz AI",
+        "url": "https://www.vidnoz.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur vidéo IA gratuit avec plus de 300 avatars parlants et modèles vidéo prêts à l'emploi.",
+        "icon": "https://www.vidnoz.com/favicon.ico"
+    },
+    {
+        "id": "visla",
+        "title": "Visla",
+        "url": "https://www.visla.us/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Assistant de production vidéo tout-en-un par IA : script, sélection de b-rolls, voix off et montage automatique.",
+        "icon": "https://www.visla.us/favicon.ico"
+    },
+    {
+        "id": "synthesys",
+        "title": "Synthesys",
+        "url": "https://synthesys.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Moteur d'avatars humains et voix off IA naturelles pour vidéos de formation et marketing.",
+        "icon": "https://synthesys.io/favicon.ico"
+    },
+    {
+        "id": "autocut",
+        "title": "AutoCut",
+        "url": "https://www.autocut.fr/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plugin pour Premiere Pro et DaVinci Resolve : coupe automatique des silences, zooms et sous-titres animés.",
+        "icon": "https://www.autocut.fr/favicon.ico"
+    },
+    {
+        "id": "peech",
+        "title": "Peech AI",
+        "url": "https://www.peech-ai.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme d'édition vidéo automatique pour marques : charte graphique, sous-titrage et découpage instantané.",
+        "icon": "https://www.peech-ai.com/favicon.ico"
+    },
+    {
+        "id": "kreadoai",
+        "title": "Kreado AI",
+        "url": "https://www.kreadoai.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio vidéo IA multilingue avec avatars réalistes pour le e-commerce et la création de publicités.",
+        "icon": "https://www.kreadoai.com/favicon.ico"
+    },
+    {
+        "id": "swapface",
+        "title": "Swapface",
+        "url": "https://swapface.org/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Remplacement de visage en temps réel par IA pour vidéos enregistrées ou streaming webcam direct.",
+        "icon": "https://swapface.org/favicon.ico"
+    },
+    {
+        "id": "cutoutpro",
+        "title": "Cutout.pro Video",
+        "url": "https://www.cutout.pro/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Détourage vidéo automatique sans fond vert, suppression d'objets indésirables et retouche IA.",
+        "icon": "https://www.cutout.pro/favicon.ico"
     }
 ];
