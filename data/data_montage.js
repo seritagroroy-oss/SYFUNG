@@ -767,5 +767,53 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Création de vidéos d'entreprise et de formation avec acteurs virtuels IA multilingues.",
         "icon": "https://www.colossyan.com/favicon.ico"
+    },
+    {
+        "id": "klingai",
+        "title": "Kling AI",
+        "url": "https://klingai.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Portail international officiel de Kling AI pour la génération de vidéos cinématiques ultra-réalistes.",
+        "icon": "https://klingai.com/favicon.ico"
+    },
+    {
+        "id": "domoai",
+        "title": "DomoAI",
+        "url": "https://domoai.app/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Transfert de style vidéo (Video-to-Video) en anime, 3D, pâte à modeler ou comics avec cohérence temporelle.",
+        "icon": "https://domoai.app/favicon.ico"
+    },
+    {
+        "id": "raskai",
+        "title": "Rask AI",
+        "url": "https://www.rask.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Localisation et doublage vidéo dans plus de 130 langues avec clonage vocal et synchronisation labiale par IA.",
+        "icon": "https://www.rask.ai/favicon.ico"
+    },
+    {
+        "id": "deepbrainai",
+        "title": "DeepBrain AI",
+        "url": "https://www.deepbrain.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio vidéo IA créant des présentateurs et journalistes virtuels photoréalistes à partir de texte.",
+        "icon": "https://www.deepbrain.io/favicon.ico"
+    },
+    {
+        "id": "vmake",
+        "title": "Vmake AI",
+        "url": "https://vmake.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Suite vidéo IA e-commerce : mannequins IA, suppression/changement d'arrière-plan vidéo et upscaling 4K.",
+        "icon": "https://vmake.ai/favicon.ico"
+    },
+    {
+        "id": "polloai",
+        "title": "Pollo AI",
+        "url": "https://pollo.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme tout-en-un regroupant et comparant les meilleurs moteurs de génération vidéo IA du marché.",
+        "icon": "https://pollo.ai/favicon.ico"
     }
 ];
