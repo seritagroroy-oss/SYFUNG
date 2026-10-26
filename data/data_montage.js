@@ -815,5 +815,133 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Plateforme tout-en-un regroupant et comparant les meilleurs moteurs de génération vidéo IA du marché.",
         "icon": "https://pollo.ai/favicon.ico"
+    },
+    {
+        "id": "moonvalley",
+        "title": "Moonvalley",
+        "url": "https://moonvalley.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Modèle de génération vidéo IA haute définition aux styles cinématiques et animés variés.",
+        "icon": "https://moonvalley.ai/favicon.ico"
+    },
+    {
+        "id": "seaartai",
+        "title": "SeaArt AI",
+        "url": "https://www.seaart.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Studio de création artistique et vidéo par IA avec modèles communautaires et animations avancées.",
+        "icon": "https://www.seaart.ai/favicon.ico"
+    },
+    {
+        "id": "leiapix",
+        "title": "LeiaPix Converter",
+        "url": "https://convert.leiapix.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Transforme toute image 2D en vidéo avec effet de parallaxe et profondeur 3D animée.",
+        "icon": "https://convert.leiapix.com/favicon.ico"
+    },
+    {
+        "id": "lalamu",
+        "title": "Lalamu Studio",
+        "url": "https://lalamu.studio/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération rapide de vidéos et synchronisation labiale par IA à partir d'un texte ou d'un fichier audio.",
+        "icon": "https://lalamu.studio/favicon.ico"
+    },
+    {
+        "id": "vizard",
+        "title": "Vizard AI",
+        "url": "https://vizard.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Découpe automatique de vidéos longues en formats courts viraux avec sous-titres animés et cadrage IA.",
+        "icon": "https://vizard.ai/favicon.ico"
+    },
+    {
+        "id": "twoshortai",
+        "title": "2short.ai",
+        "url": "https://2short.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Analyse de vidéos YouTube et extraction intelligente des meilleurs moments sous forme de Shorts.",
+        "icon": "https://2short.ai/favicon.ico"
+    },
+    {
+        "id": "spikesstudio",
+        "title": "Spikes Studio",
+        "url": "https://spikes.studio/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur de clips et temps forts automatisé pour streamers Twitch et créateurs YouTube.",
+        "icon": "https://spikes.studio/favicon.ico"
+    },
+    {
+        "id": "qlip",
+        "title": "Qlip.ai",
+        "url": "https://qlip.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme d'analyse vidéo par IA extrayant automatiquement les citations et séquences clés.",
+        "icon": "https://qlip.ai/favicon.ico"
+    },
+    {
+        "id": "hourone",
+        "title": "Hour One",
+        "url": "https://www.hourone.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Création de vidéos d'entreprise et de formation guidées par des présentateurs virtuels photoréalistes.",
+        "icon": "https://www.hourone.ai/favicon.ico"
+    },
+    {
+        "id": "elai",
+        "title": "Elai.io",
+        "url": "https://elai.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération de vidéos interactives avec avatars IA à partir de simples articles ou présentations.",
+        "icon": "https://elai.io/favicon.ico"
+    },
+    {
+        "id": "yepic",
+        "title": "Yepic AI",
+        "url": "https://yepic.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Création de vidéos multilingues avec avatars parlants en temps réel sans équipement de tournage.",
+        "icon": "https://yepic.ai/favicon.ico"
+    },
+    {
+        "id": "liveportrait",
+        "title": "LivePortrait",
+        "url": "https://liveportrait.github.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Animation faciale par IA ultra-réaliste pilotant les expressions d'un portrait depuis une vidéo source.",
+        "icon": "https://liveportrait.github.io/favicon.ico"
+    },
+    {
+        "id": "hitpawvideo",
+        "title": "HitPaw Video Enhancer",
+        "url": "https://www.hitpaw.com/fr/video-enhancer.html",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Amélioration de qualité vidéo, débruitage et upscaling jusqu'en 8K par réseaux de neurones.",
+        "icon": "https://www.hitpaw.com/favicon.ico"
+    },
+    {
+        "id": "avclabs",
+        "title": "AVCLabs Video Enhancer AI",
+        "url": "https://www.avclabs.com/video-enhancer-ai.html",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Restauration, colorisation et conversion de vidéos anciennes vers la haute définition par IA.",
+        "icon": "https://www.avclabs.com/favicon.ico"
+    },
+    {
+        "id": "falai",
+        "title": "Fal.ai",
+        "url": "https://fal.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Plateforme cloud ultra-rapide pour exécuter les derniers modèles vidéo open-source (Wan, Hunyuan, LTX).",
+        "icon": "https://fal.ai/favicon.ico"
+    },
+    {
+        "id": "replicate",
+        "title": "Replicate",
+        "url": "https://replicate.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Exécution dans le cloud des modèles IA vidéo, audio et image open-source avec interface et API simples.",
+        "icon": "https://replicate.com/favicon.ico"
     }
 ];
