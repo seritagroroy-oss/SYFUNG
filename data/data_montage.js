@@ -943,5 +943,85 @@ const LINKS_MONTAGE = [
         "category": "MONTAGE - IA & LIGNE",
         "description": "Exécution dans le cloud des modèles IA vidéo, audio et image open-source avec interface et API simples.",
         "icon": "https://replicate.com/favicon.ico"
+    },
+    {
+        "id": "genmo",
+        "title": "Genmo AI",
+        "url": "https://genmo.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Moteur de création vidéo et 3D spécialisé dans la physique réaliste et les mouvements fluides.",
+        "icon": "https://genmo.ai/favicon.ico"
+    },
+    {
+        "id": "decohere",
+        "title": "Decohere",
+        "url": "https://www.decohere.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur vidéo IA en temps réel avec transitions fluides et contrôle direct de la caméra.",
+        "icon": "https://www.decohere.ai/favicon.ico"
+    },
+    {
+        "id": "deforum",
+        "title": "Deforum",
+        "url": "https://deforum.art/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Animations psychédéliques, zooms infinis et morphing vidéo continu générés par IA.",
+        "icon": "https://deforum.art/favicon.ico"
+    },
+    {
+        "id": "ebsynth",
+        "title": "EbSynth",
+        "url": "https://ebsynth.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Outil de rotoscopie IA propageant le style d'une seule image peinte à l'ensemble d'une vidéo.",
+        "icon": "https://ebsynth.com/favicon.ico"
+    },
+    {
+        "id": "crayoai",
+        "title": "Crayo AI",
+        "url": "https://crayo.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Générateur automatisé de vidéos virales TikTok et Shorts avec voix off et sous-titres animés.",
+        "icon": "https://crayo.ai/favicon.ico"
+    },
+    {
+        "id": "unscreen",
+        "title": "Unscreen",
+        "url": "https://www.unscreen.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Suppression automatique d'arrière-plan vidéo 100% en ligne sans fond vert.",
+        "icon": "https://www.unscreen.com/favicon.ico"
+    },
+    {
+        "id": "timebolt",
+        "title": "Timebolt",
+        "url": "https://www.timebolt.io/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Découpage automatique ultra-rapide des silences et scènes mortes dans les rushs vidéo.",
+        "icon": "https://www.timebolt.io/favicon.ico"
+    },
+    {
+        "id": "autopod",
+        "title": "AutoPod",
+        "url": "https://www.autopod.fm/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Automatisation du montage multi-caméras par IA pour podcasts et émissions vidéo sur Premiere Pro.",
+        "icon": "https://www.autopod.fm/favicon.ico"
+    },
+    {
+        "id": "cascadeur",
+        "title": "Cascadeur",
+        "url": "https://cascadeur.com/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Logiciel d'animation de personnages 3D assisté par IA avec simulation physique automatique.",
+        "icon": "https://cascadeur.com/favicon.ico"
+    },
+    {
+        "id": "krikey",
+        "title": "Krikey AI",
+        "url": "https://www.krikey.ai/",
+        "category": "MONTAGE - IA & LIGNE",
+        "description": "Génération d'animations 3D text-to-animation par IA pour avatars et moteurs de jeu.",
+        "icon": "https://www.krikey.ai/favicon.ico"
     }
 ];
